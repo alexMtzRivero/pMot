@@ -1,0 +1,376 @@
+avion;plane;avión;vehicles;FALSE;0.0
+bateau;boat;barco;vehicles;FALSE;0.0
+bus;bus;autobús;vehicles;FALSE;0.0
+camion;truck;camión;vehicles;FALSE;0.0
+camion de pompier;fire truck;camión de bomberos;vehicles;FALSE;0.0
+hélicoptère;helicopter;helicóptero;vehicles;FALSE;0.0
+moto;motorbike;motocicleta;vehicles;FALSE;0.0
+poussette;stroller;paseante;vehicles;FALSE;0.0
+tracteur;tractor;tractor;vehicles;FALSE;0.0
+train;train;tren;vehicles;FALSE;0.0
+traineau;sled;trineo;vehicles;FALSE;0.0
+tricycle;tricycle;triciclo;vehicles;FALSE;0.0
+vélo;bike;bicicleta;vehicles;FALSE;0.0
+voiture;car;carro;vehicles;FALSE;0.0
+abeille;bee;abeja;animals;FALSE;0.0
+agneau;lamb;cordero;animals;FALSE;0.0
+âne;donkey;Burro;animals;FALSE;0.0
+animal;animal;animal;animals;FALSE;0.0
+bébé chat;Baby cat;gatito;animals;FALSE;0.0
+bébé chien;baby dog;perrito;animals;FALSE;0.0
+biche;doe;Cierva;animals;FALSE;0.0
+canard;duck;pato;animals;FALSE;0.0
+chat;cat;gato;animals;FALSE;0.0
+cheval;horse;caballo;animals;FALSE;0.0
+chèvre;goat;cabra;animals;FALSE;0.0
+chien;dog;perro;animals;FALSE;0.0
+cochon;pig;cerdo;animals;FALSE;0.0
+coq;cock;gallo;animals;FALSE;0.0
+crocodile;crocodile;cocodrilo;animals;FALSE;0.0
+dindon;turkey;pavo;animals;FALSE;0.0
+écureuil;squirrel;ardilla;animals;FALSE;0.0
+éléphant;elephant;elefante;animals;FALSE;0.0
+fourmi;ant;hormiga;animals;FALSE;0.0
+girafe;giraffe;jirafa;animals;FALSE;0.0
+grenouille;frog;rana;animals;FALSE;0.0
+hibou;owl;búho;animals;FALSE;0.0
+lapin;rabbit;conejo;animals;FALSE;0.0
+lion;Lion;león;animals;FALSE;0.0
+loup;wolf;lobo;animals;FALSE;0.0
+mouton;sheep;oveja;animals;FALSE;0.0
+nounours;teddy bear;oso de peluche;animals;FALSE;0.0
+oie;goose;ganso;animals;FALSE;0.0
+oiseau;bird;pájaro;animals;FALSE;0.0
+ours;bear;Oso;animals;FALSE;0.0
+papillon;butterfly;mariposa;animals;FALSE;0.0
+petite bête;tiny beast;pequeña bestia;animals;FALSE;0.0
+pinguoin;pinguoin;Pinguino;animals;FALSE;0.0
+poisson;fish;pescado;animals;FALSE;0.0
+poney;pony;poni;animals;FALSE;0.0
+poule;hen;gallina;animals;FALSE;0.0
+renne;reindeer;reno;animals;FALSE;0.0
+singe;monkey;mono;animals;FALSE;0.0
+souris;mouse;ratón;animals;FALSE;0.0
+tigre;tiger;tigre;animals;FALSE;0.0
+tortue;tortoise;tortuga;animals;FALSE;0.0
+vache;cow;vaca;animals;FALSE;0.0
+zèbre;zebra;cebra;animals;FALSE;0.0
+balle;ball;bola;toys;FALSE;0.0
+ballon;ball;Pelota;toys;FALSE;0.0
+bulles;bubbles;burbujas;toys;FALSE;0.0
+cadeau;gift;regalo;toys;FALSE;0.0
+colle;glue;pegamento;toys;FALSE;0.0
+craie;chalk;tiza;toys;FALSE;0.0
+crayon;pencil;lápiz;toys;FALSE;0.0
+cube;cube;cubo;toys;FALSE;0.0
+feutre;felt;fieltro;toys;FALSE;0.0
+histoire;history;historia;toys;FALSE;0.0
+jeu;Game;juego;toys;FALSE;0.0
+jouet;toy;juguete;toys;FALSE;0.0
+livre;book;libro;toys;FALSE;0.0
+pâte à modeler;modeling clay;plastilina;toys;FALSE;0.0
+poupée;doll;muñeca;toys;FALSE;0.0
+puzzle;puzzle;rompecabezas;toys;FALSE;0.0
+raquette;racket;raqueta;toys;FALSE;0.0
+stylo;pen;pluma;toys;FALSE;0.0
+basket;basketball;baloncesto;clothing;FALSE;0.0
+bavoir/bavette;bib / bib;babero / babero;clothing;FALSE;0.0
+body;body;cuerpo;clothing;FALSE;0.0
+bottes;boots;botas;clothing;FALSE;0.0
+boutons;buttons;botones;clothing;FALSE;0.0
+ceinture;belt;cinturón;clothing;FALSE;0.0
+chapeau;hat;sombrero;clothing;FALSE;0.0
+chaussettes;socks;calcetines;clothing;FALSE;0.0
+chausson/pantoufle;shoe / slipper;zapato / zapatilla;clothing;FALSE;0.0
+chaussure;shoe;zapato;clothing;FALSE;0.0
+chemise;shirt;camisa;clothing;FALSE;0.0
+collants;tights;medias;clothing;FALSE;0.0
+collier;necklace;collar;clothing;FALSE;0.0
+combinaison de ski;ski suit;mono de esquí;clothing;FALSE;0.0
+couche;layer;capa;clothing;FALSE;0.0
+culotte/slip;pants / panties;pantalones / bragas;clothing;FALSE;0.0
+écharpe;scarf;bufanda;clothing;FALSE;0.0
+gants;gloves;guantes;clothing;FALSE;0.0
+grenouillère;onesie;onesie;clothing;FALSE;0.0
+jeans;jeans;Jeans;clothing;FALSE;0.0
+manteau;coat;abrigo;clothing;FALSE;0.0
+moufles;mittens;mitones;clothing;FALSE;0.0
+pantalon;trousers;pantalones;clothing;FALSE;0.0
+perles;beads;perlas;clothing;FALSE;0.0
+pull;sweater;suéter;clothing;FALSE;0.0
+pyjama;pajamas;pijama;clothing;FALSE;0.0
+robe;dress;vestido;clothing;FALSE;0.0
+salopette;overalls;mono;clothing;FALSE;0.0
+short;shorts;pantalones cortos;clothing;FALSE;0.0
+sweat;sweat;Sudadera;clothing;FALSE;0.0
+tee-shirt;T-shirt;camiseta;clothing;FALSE;0.0
+veste;jacket;chaqueta;clothing;FALSE;0.0
+arbre;tree;árbol;outside;FALSE;0.0
+arrosoir;watering can;regadera;outside;FALSE;0.0
+bac à sable;Sandbox;cajón de arena;outside;FALSE;0.0
+balançoire;swing;oscilación;outside;FALSE;0.0
+baton;stick;palo;outside;FALSE;0.0
+bonhomme de neige;snowman;muñeco de nieve;outside;FALSE;0.0
+caillou;Pebble;piedra;outside;FALSE;0.0
+ciel;sky;cielo;outside;FALSE;0.0
+drapeau;flag;bandera;outside;FALSE;0.0
+eau;water;agua;outside;FALSE;0.0
+échelle;ladder;Escalera;outside;FALSE;0.0
+étoile;star;estrella;outside;FALSE;0.0
+fleur;flower;flor;outside;FALSE;0.0
+herbe;grass;hierba;outside;FALSE;0.0
+jardin;garden;jardín;outside;FALSE;0.0
+lune;Moon;luna;outside;FALSE;0.0
+neige;snow;nieve;outside;FALSE;0.0
+nuage;cloud;nube;outside;FALSE;0.0
+pelle;shovel;pala;outside;FALSE;0.0
+pierre;Pierre;Piedra;outside;FALSE;0.0
+piscine;swimming pool;piscina;outside;FALSE;0.0
+pluie;rain;lluvia;outside;FALSE;0.0
+rocher;rock;roca;outside;FALSE;0.0
+rue/route;street / road;calle / carretera;outside;FALSE;0.0
+soleil;Sun;sol;outside;FALSE;0.0
+toboggan;toboggan;diapositiva;outside;FALSE;0.0
+toit;roof;tejado;outside;FALSE;0.0
+tondeuse à gazon;Lawn mower;cortacésped;outside;FALSE;0.0
+trottoir;pavement;acera;outside;FALSE;0.0
+tuyau;pipe;manguera;outside;FALSE;0.0
+vent;wind;viento;outside;FALSE;0.0
+campagne;campaign;campaña;places;FALSE;0.0
+camping;camping;camping;places;FALSE;0.0
+centre-ville;downtown;centro de la ciudad;places;FALSE;0.0
+cinéma;cinema;cine;places;FALSE;0.0
+cirque;circus;circo;places;FALSE;0.0
+cour;court;corte;places;FALSE;0.0
+crèche;creche;vivero;places;FALSE;0.0
+dehors;outside;fuera;places;FALSE;0.0
+école;school;Escuela;places;FALSE;0.0
+église;church;iglesia;places;FALSE;0.0
+ferme;closed;firme;places;FALSE;0.0
+fête;Party;fiesta;places;FALSE;0.0
+forêt;forest;bosque;places;FALSE;0.0
+garderie;nursery;vivero;places;FALSE;0.0
+magasin;store;tienda;places;FALSE;0.0
+maison;House;casa;places;FALSE;0.0
+parc;Park;parque;places;FALSE;0.0
+pique-nique;picnic;picnic;places;FALSE;0.0
+plage;beach;playa;places;FALSE;0.0
+station-service;gas station;estación de servicio;places;FALSE;0.0
+terrain de jeux;playground;campo de juego;places;FALSE;0.0
+travail;job;Trabajo;places;FALSE;0.0
+zoo;zoo;zoo;places;FALSE;0.0
+appareil photo;camera;cámara;household;FALSE;0.0
+argent;money;dinero;household;FALSE;0.0
+aspirateur;vacuum;vacío;household;FALSE;0.0
+assiette;plate;plato;household;FALSE;0.0
+balai;broom;escoba;household;FALSE;0.0
+biberon;baby bottle;biberón;household;FALSE;0.0
+boîte;box;caja;household;FALSE;0.0
+bol;bowl;cuenco;household;FALSE;0.0
+bouteille;bottle;botella;household;FALSE;0.0
+brosse;brush;cepillo;household;FALSE;0.0
+brosse à dent;toothbrush;cepillo de dientes;household;FALSE;0.0
+cassette;cassette;casete;household;FALSE;0.0
+ciseaux;scissors;tijeras;household;FALSE;0.0
+clefs;keys;llaves;household;FALSE;0.0
+clou;nail;uña;household;FALSE;0.0
+coussins;cushions;cojines;household;FALSE;0.0
+couteau;knife;cuchillo;household;FALSE;0.0
+couverture;blanket;cobertura;household;FALSE;0.0
+cuillère;spoon;cuchara;household;FALSE;0.0
+feuille;leaf;hoja;household;FALSE;0.0
+fourchette;fork;tenedor;household;FALSE;0.0
+horloge;clock;reloj;household;FALSE;0.0
+lampe;lamp;lámpara;household;FALSE;0.0
+lumière;light;luz;household;FALSE;0.0
+lunettes;glasses;gafas;household;FALSE;0.0
+marteau;hammer;martillo;household;FALSE;0.0
+médicaments;pharmaceuticals;productos farmacéuticos;household;FALSE;0.0
+montre;watch;Reloj;household;FALSE;0.0
+mouchoir;tissue;pañuelo;household;FALSE;0.0
+musique;music;música;household;FALSE;0.0
+ordures;garbage;basura;household;FALSE;0.0
+oreiller;pillow;almohada;household;FALSE;0.0
+panier;basket;cesta;household;FALSE;0.0
+papier;paper;papel;household;FALSE;0.0
+peigne;comb;peine;household;FALSE;0.0
+photo;Photo;foto;household;FALSE;0.0
+plante;plant;planta;household;FALSE;0.0
+plat;dish;plato;household;FALSE;0.0
+plateau;tray;bandeja;household;FALSE;0.0
+porte-monnaie;wallet;monedero;household;FALSE;0.0
+pot;pot;olla;household;FALSE;0.0
+poubelle;trash can;cubo de basura;household;FALSE;0.0
+radio;radio;radio;household;FALSE;0.0
+savon;soap;jabón;household;FALSE;0.0
+seau;bucket;cubo;household;FALSE;0.0
+serpillère;floorcloth;bayeta;household;FALSE;0.0
+serviette;towel;servilleta;household;FALSE;0.0
+serviette de table;table napkin;servilleta;household;FALSE;0.0
+sirop;syrup;jarabe;household;FALSE;0.0
+sous/pièces;On / parts;On / piezas;household;FALSE;0.0
+sucette;lollipop;pirulí;household;FALSE;0.0
+tasse;Cup;taza;household;FALSE;0.0
+télécommande;remote control;mando a distancia;household;FALSE;0.0
+téléphone;phone;teléfono;household;FALSE;0.0
+trotteur;trotter;trotón;household;FALSE;0.0
+verre;glass;vidrio;household;FALSE;0.0
+aïe bobo;ouch bobo;ay bobo;body_parts;FALSE;0.0
+bouche;stuffy;boca;body_parts;FALSE;0.0
+bras;arms;brazo;body_parts;FALSE;0.0
+cheveux;hair;pelo;body_parts;FALSE;0.0
+cheville;ankle;tobillo;body_parts;FALSE;0.0
+cœur;heart;corazón;body_parts;FALSE;0.0
+dent;tooth;diente;body_parts;FALSE;0.0
+doigt;finger;dedo;body_parts;FALSE;0.0
+doigt de pieds;toes;pie de página;body_parts;FALSE;0.0
+fesses;buttocks;nalgas;body_parts;FALSE;0.0
+figure/visage;face / face;cara / la cara;body_parts;FALSE;0.0
+genou;knee;rodilla;body_parts;FALSE;0.0
+jambe;leg;pierna;body_parts;FALSE;0.0
+joue;play;mejilla;body_parts;FALSE;0.0
+langue;language;lengua;body_parts;FALSE;0.0
+lèvre;lip;labio;body_parts;FALSE;0.0
+main;hand;mano;body_parts;FALSE;0.0
+menton;chin;barbilla;body_parts;FALSE;0.0
+nez;nose;nariz;body_parts;FALSE;0.0
+nombril;belly button;ombligo;body_parts;FALSE;0.0
+oreille;hear;oreja;body_parts;FALSE;0.0
+pénis/zizi…;penis / penis ...;pene / pene ...;body_parts;FALSE;0.0
+pied;foot;pie;body_parts;FALSE;0.0
+pouce;thumb;pulgar;body_parts;FALSE;0.0
+tête;head;cabeza;body_parts;FALSE;0.0
+vagin/zezette;vagina / zezette;la vagina / zezette;body_parts;FALSE;0.0
+ventre;belly;estómago;body_parts;FALSE;0.0
+yeux;eyes;ojos;body_parts;FALSE;0.0
+baguette;baguette;vara;food_drink;FALSE;0.0
+banane;banana;plátano;food_drink;FALSE;0.0
+beignet;donut;buñuelo;food_drink;FALSE;0.0
+beurre;Butter;mantequilla;food_drink;FALSE;0.0
+boisson;drink;bebida;food_drink;FALSE;0.0
+bonbons;candy;caramelos;food_drink;FALSE;0.0
+bretzel;Pretzel;galleta salada;food_drink;FALSE;0.0
+café;coffee;café;food_drink;FALSE;0.0
+carottes;carrots;zanahorias;food_drink;FALSE;0.0
+céréales;cereals;cereales;food_drink;FALSE;0.0
+chewing-gum;chewing gum;goma de mascar;food_drink;FALSE;0.0
+chips;chips;patatas fritas;food_drink;FALSE;0.0
+chocolat;chocolate;chocolate;food_drink;FALSE;0.0
+clémentine;clementine;clementina;food_drink;FALSE;0.0
+coca;Coca;coca;food_drink;FALSE;0.0
+compote;compote;compota;food_drink;FALSE;0.0
+confiture;jam;mermelada;food_drink;FALSE;0.0
+cornflakes;corn flakes;copos de maíz;food_drink;FALSE;0.0
+courge;squash;calabacín;food_drink;FALSE;0.0
+crêpe;crepe;crepe;food_drink;FALSE;0.0
+eau;water;agua;food_drink;FALSE;0.0
+esquimau;Eskimo;esquimal;food_drink;FALSE;0.0
+flan;flan;flan;food_drink;FALSE;0.0
+fraise;strawberry;fresa;food_drink;FALSE;0.0
+frites;fries;papas fritas;food_drink;FALSE;0.0
+fromage;cheese;queso;food_drink;FALSE;0.0
+gâteau;cake;pastel;food_drink;FALSE;0.0
+gâteaux apéro;aperitif cakes;pasteles de aperitivo;food_drink;FALSE;0.0
+glace;ice cream;helado;food_drink;FALSE;0.0
+glaçon;ice Cube;iceberg;food_drink;FALSE;0.0
+hamburger;hamburger;hamburguesa;food_drink;FALSE;0.0
+haricot;bean;haba;food_drink;FALSE;0.0
+haricots verts;green beans;judías verdes;food_drink;FALSE;0.0
+jus de fruit;fruit juice;zumo de frutas;food_drink;FALSE;0.0
+kiwi;Kiwi;kiwi;food_drink;FALSE;0.0
+lait;milk;leche;food_drink;FALSE;0.0
+limonade;lemonade;limonada;food_drink;FALSE;0.0
+madeleine;madeleine;Madeleine;food_drink;FALSE;0.0
+maïs;but;maíz;food_drink;FALSE;0.0
+mayonnaise;mayonnaise;mayonesa;food_drink;FALSE;0.0
+melon;melon;melón;food_drink;FALSE;0.0
+noisettes;Hazelnut;avellanas;food_drink;FALSE;0.0
+nourriture;food;comida;food_drink;FALSE;0.0
+nutella;Nutella;nutella;food_drink;FALSE;0.0
+œuf;egg;huevo;food_drink;FALSE;0.0
+orange;orange;naranja;food_drink;FALSE;0.0
+pain;bread;pan;food_drink;FALSE;0.0
+pâtes;pasta;pastas;food_drink;FALSE;0.0
+petits gâteaux;cupcakes;pastelitos;food_drink;FALSE;0.0
+petits pois;peas;guisantes;food_drink;FALSE;0.0
+petits pots;little pots;pequeñas ollas;food_drink;FALSE;0.0
+pizza;pizza;pizza;food_drink;FALSE;0.0
+poisson;fish;pescado;food_drink;FALSE;0.0
+pomme;Apple;Manzana;food_drink;FALSE;0.0
+pomme de terre;potato;Papa;food_drink;FALSE;0.0
+pop-corn;pop corn;palomitas de maiz;food_drink;FALSE;0.0
+poulet;chicken;pollo;food_drink;FALSE;0.0
+purée;mash potatoes;puré;food_drink;FALSE;0.0
+raisin;grapes;uvas;food_drink;FALSE;0.0
+raisins secs;raisins;uvas pasas;food_drink;FALSE;0.0
+sandwich;sandwich;sándwich;food_drink;FALSE;0.0
+sauce;sauce;salsa;food_drink;FALSE;0.0
+sel;salt;sal;food_drink;FALSE;0.0
+soupe;soup;sopa;food_drink;FALSE;0.0
+spaghetti;spaghetti;espaguetis;food_drink;FALSE;0.0
+sucette;lollipop;pirulí;food_drink;FALSE;0.0
+sucre;sugar;azúcar;food_drink;FALSE;0.0
+tartine;tartine;tartine;food_drink;FALSE;0.0
+thon;tuna;atún;food_drink;FALSE;0.0
+vanille;vanilla;vainilla;food_drink;FALSE;0.0
+viande;meat;carne;food_drink;FALSE;0.0
+vitamines;vitamins;vitaminas;food_drink;FALSE;0.0
+yaourt;yogurt;yogur;food_drink;FALSE;0.0
+baignoire;bath;baño;furniture_rooms;FALSE;0.0
+banc;bench;banco;furniture_rooms;FALSE;0.0
+berceau;cradle;cuna;furniture_rooms;FALSE;0.0
+canapé;sofa;sofá;furniture_rooms;FALSE;0.0
+cave;cellar;bodega;furniture_rooms;FALSE;0.0
+chaise;chair;silla;furniture_rooms;FALSE;0.0
+chaise haute;high chair;silla alta;furniture_rooms;FALSE;0.0
+chambre;bedroom;habitación;furniture_rooms;FALSE;0.0
+cuisine;cooked;cocina;furniture_rooms;FALSE;0.0
+cuisinière;cooker;cocinera;furniture_rooms;FALSE;0.0
+douche;shower;ducha;furniture_rooms;FALSE;0.0
+entrée;Entrance;entrada;furniture_rooms;FALSE;0.0
+escalier;staircase;escalera;furniture_rooms;FALSE;0.0
+étendage;spreading;esparcimiento;furniture_rooms;FALSE;0.0
+évier;sink;fregadero;furniture_rooms;FALSE;0.0
+fauteuil;armchair;silla;furniture_rooms;FALSE;0.0
+fenêtre;window;ventana;furniture_rooms;FALSE;0.0
+four;oven;horno;furniture_rooms;FALSE;0.0
+frigo;fridge;nevera;furniture_rooms;FALSE;0.0
+garage;garage;garaje;furniture_rooms;FALSE;0.0
+lavabo;bathroom sink;lavabo;furniture_rooms;FALSE;0.0
+lit;bed;cama;furniture_rooms;FALSE;0.0
+machine à laver;washing machine;lavadora;furniture_rooms;FALSE;0.0
+parc;Park;parque;furniture_rooms;FALSE;0.0
+pièce;piece;pieza;furniture_rooms;FALSE;0.0
+porte;door;puerta;furniture_rooms;FALSE;0.0
+pot;pot;olla;furniture_rooms;FALSE;0.0
+salle de bain;bathroom;cuarto de baño;furniture_rooms;FALSE;0.0
+salon;living room;espectáculo;furniture_rooms;FALSE;0.0
+table;table;mesa;furniture_rooms;FALSE;0.0
+télé;TV;TV;furniture_rooms;FALSE;0.0
+tiroir;drawer;cajón;furniture_rooms;FALSE;0.0
+wc;wc;wc;furniture_rooms;FALSE;0.0
+bébé;baby;Bebé;people;FALSE;0.0
+clown;clown;payaso;people;FALSE;0.0
+copain/e;boyfriend / e;novio / e;people;FALSE;0.0
+dame;lady;dama;people;FALSE;0.0
+docteur;doctor;médico;people;FALSE;0.0
+enfant;child;niño;people;FALSE;0.0
+facteur;postman;factor;people;FALSE;0.0
+fille;girl;chica;people;FALSE;0.0
+frère;brother;hermano;people;FALSE;0.0
+garçon;boy;niño;people;FALSE;0.0
+gens;people;personas;people;FALSE;0.0
+grand-mère;grandmother;abuela;people;FALSE;0.0
+grand-père;grandfather;abuelo;people;FALSE;0.0
+infirmière;nurse;enfermera;people;FALSE;0.0
+maître/sse;mistress;maestro / sse;people;FALSE;0.0
+maman;mum;mamá;people;FALSE;0.0
+monsieur;gentleman;señor;people;FALSE;0.0
+nounou;nanny;niñera;people;FALSE;0.0
+oncle;uncle;tío;people;FALSE;0.0
+papa;dad;papá;people;FALSE;0.0
+personne;nobody;persona;people;FALSE;0.0
+police;police;policía;people;FALSE;0.0
+pompier;firefighter;bombero;people;FALSE;0.0
+sœur;sister;hermana;people;FALSE;0.0
+tante;aunt;tía;people;FALSE;0.0
