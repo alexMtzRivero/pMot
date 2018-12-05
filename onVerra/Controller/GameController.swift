@@ -31,7 +31,6 @@ class GameController {
             return nil
         }
     }
-    
     func csvToWords(data: String) -> [Word] {
         var result: [Word] = []
         let rows = data.components(separatedBy: "\r\n")
@@ -39,13 +38,30 @@ class GameController {
             let columns = row.components(separatedBy: ";")
             
             
-            let aString = NSString(string:columns[3])
-            let aFloat = (columns[4] as NSString).floatValue
+            let aString = NSString(string:columns[4])
+            let aFloat = (columns[5] as NSString).floatValue
             
-            result.append(Word(French: columns[0], English: columns[1], Spanish: columns[2], Sown: aString.boolValue, Correct: aFloat))
+            result.append(Word(French: columns[0], English: columns[1], Spanish: columns[2],Category:columns[3] , Sown: aString.boolValue, Correct: aFloat))
         }
         return result
     }
+    
+    
+    
+    
+    func getWordsFromCategori(categori cat: String)->[ Word ]{
+        var cured:[Word] = [ ]
+        for word in allWords{
+            if word.category == cat {
+                cured.append(word)
+            }
+            
+        }
+        return cured
+    }
+    
+    
+   
     
     
     

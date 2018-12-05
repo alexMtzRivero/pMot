@@ -16,11 +16,13 @@ class Word {
     var sp:String
     var en:String
     var showed:Bool
+    var category:String
     var correct:Float
-    init(French f :String, English e:String ,Spanish s:String,Sown sw:Bool,Correct cr:Float) {
+    init(French f :String, English e:String ,Spanish s:String, Category c:String, Sown sw:Bool,Correct cr:Float) {
         self.fr = f
         self.en = e
         self.sp = s
+        self.category = c
         self.showed = sw
         self.correct = cr
     }
