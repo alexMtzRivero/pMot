@@ -48,6 +48,9 @@ class ViewController: UIViewController {
         
         //sesion = SesionController( )
         
+        sesion = SesionController( )
+        sesion.saveCsv()
+        
         frenchBtn.layer.cornerRadius = 5
         englishBtn.layer.cornerRadius = 5
         spanishBtn.layer.cornerRadius = 5

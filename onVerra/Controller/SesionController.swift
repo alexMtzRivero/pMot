@@ -21,7 +21,22 @@ class SesionController {
         let d = readDataFromCSV(fileName: "wordsDB", fileType: "csv")
         return csvToWords(data: d!)
     }
+    func loadAllWords (Path:String)->[ Word ]{
+        let d = readDataFromCSV(path:Path)
+        return csvToWords(data: d!)
+    }
     
+    
+    func readDataFromCSV(path: String)-> String!{
+      let filepath = path
+        do {
+            return try String(contentsOfFile: filepath, encoding: .utf8)
+            
+        } catch {
+            print("File Read Error for file \(filepath)")
+            return nil
+        }
+    }
     func readDataFromCSV(fileName:String, fileType: String)-> String!{
         guard let filepath = Bundle.main.path(forResource: fileName, ofType: fileType)
             else {
@@ -35,6 +50,45 @@ class SesionController {
             return nil
         }
     }
+    
+    
+    
+    
+    func saveCsv() {
+        let docPath = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent("wordsDB.csv")
+        
+        var csvText = ""
+        
+     allWords[ 0 ].fr = "edited 6686798"
+        
+    
+            
+            for word in allWords {
+                let newLine = "\(word.fr),\(word.en),\(word.sp),\(word.category),\(word.showed),\(word.correct)\n"
+                csvText.append(newLine)
+            }
+            
+            do {
+                try csvText.write(to: docPath, atomically: true, encoding: .utf8)
+                
+                let contents = try NSString(contentsOfFile: docPath.absoluteString , encoding: String.Encoding.utf8.rawValue)
+                print(contents)
+                
+                allWords = loadAllWords()
+                print(allWords[ 0 ].fr)
+                
+            } catch {
+                
+                print("Failed to create file")
+                print("\(error)")
+            }
+            
+    
+    }
+    
+    
+    
+    
     func csvToWords(data: String) -> [Word] {
         var result: [Word] = []
         let rows = data.components(separatedBy: "\r\n")
@@ -52,8 +106,8 @@ class SesionController {
     
     
    func getPercentageSown(Category cat: String)->Int{
-    var val = O
-     var words = getWordsFromCategori(Categori: cat)
+    var val = 0
+     let words = getWordsFromCategori(Categori: cat)
     for word in words{
         if word.showed {
             val+=1
@@ -63,15 +117,15 @@ class SesionController {
     return val
     }
     // returns the 65/80 in string of label
-    func getNOfTotal (Category cat: String)->Int{
-        var val = O
-        var words = getWordsFromCategori(Categori: cat)
+    func getNOfTotal (Category cat: String)->String{
+        var val = 0
+      let words = getWordsFromCategori(Categori: cat)
         for word in words{
             if word.showed {
                 val+=1
             }
         }
-        return ""+val+"/"+words.count
+        return "\(val)/\(words.count)"
     }
     
     func getWordsFromCategori(Categori cat: String)->[ Word ]{

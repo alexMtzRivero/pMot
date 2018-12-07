@@ -22,6 +22,12 @@
 		9E5DF3B621B824D700842BD9 /* SesionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5DF3B021B824D700842BD9 /* SesionController.swift */; };
 		9E5DF3B721B824D700842BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5DF3B121B824D700842BD9 /* ViewController.swift */; };
 		F13901DE21BA732100368F79 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13901DD21BA732100368F79 /* Categories.swift */; };
+		9E71374521BA7894003B6F64 /* wordsDB.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9E71374421BA7894003B6F64 /* wordsDB.csv */; };
+		9E71374621BA7894003B6F64 /* wordsDB.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9E71374421BA7894003B6F64 /* wordsDB.csv */; };
+		9E71374721BA7894003B6F64 /* wordsDB.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9E71374421BA7894003B6F64 /* wordsDB.csv */; };
+		9E71374D21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
+		9E71374E21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
+		9E71374F21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +69,8 @@
 		9E5DF3B021B824D700842BD9 /* SesionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SesionController.swift; sourceTree = "<group>"; };
 		9E5DF3B121B824D700842BD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F13901DD21BA732100368F79 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		9E71374421BA7894003B6F64 /* wordsDB.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wordsDB.csv; path = onVerra/wordsDB.csv; sourceTree = SOURCE_ROOT; };
+		9E71374C21BA9D1C003B6F64 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +162,8 @@
 				9E5DF3AC21B824D700842BD9 /* frenchPage.swift */,
 				9E5DF3B021B824D700842BD9 /* SesionController.swift */,
 				9E5DF3AE21B824D700842BD9 /* spanishPage.swift */,
+				9E71374C21BA9D1C003B6F64 /* GameViewController.swift */,
+				9E71374421BA7894003B6F64 /* wordsDB.csv */,
 				9E5DF3B121B824D700842BD9 /* ViewController.swift */,
 				9E5DF3AD21B824D700842BD9 /* wordsDB.numbers */,
 			);
@@ -289,6 +299,7 @@
 				9E34D78A21B5100400359A0C /* Assets.xcassets in Resources */,
 				9E5DF3B321B824D700842BD9 /* wordsDB.numbers in Resources */,
 				9E34D78821B5100300359A0C /* Main.storyboard in Resources */,
+				9E71374521BA7894003B6F64 /* wordsDB.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E71374621BA7894003B6F64 /* wordsDB.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E71374721BA7894003B6F64 /* wordsDB.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +330,7 @@
 				9E5DF3A921B8242600842BD9 /* Game.swift in Sources */,
 				9E5DF3B721B824D700842BD9 /* ViewController.swift in Sources */,
 				9E5DF3B421B824D700842BD9 /* spanishPage.swift in Sources */,
+				9E71374D21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
 				9E5DF3B521B824D700842BD9 /* englishPage.swift in Sources */,
 				F13901DE21BA732100368F79 /* Categories.swift in Sources */,
 				9E5DF3B621B824D700842BD9 /* SesionController.swift in Sources */,
@@ -329,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E71374E21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
 				9E34D79821B5100400359A0C /* onVerraTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E71374F21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
 				9E34D7A321B5100400359A0C /* onVerraUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
