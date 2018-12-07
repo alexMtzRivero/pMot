@@ -40,7 +40,8 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0cK-c3-cZi" kind="show" id="HRO-SO-AvF"/>
+                                    <action selector="spanishBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ypw-9x-8Ku"/>
+                                    <segue destination="0cK-c3-cZi" kind="show" identifier="frenchversion" id="HRO-SO-AvF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIH-Yn-ya6">
@@ -52,6 +53,8 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="frenchBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9U-5d-aYI"/>
+                                    <action selector="frenchBtn:" destination="qFl-cd-Vqb" eventType="touchUpInside" id="msU-Uu-XUy"/>
                                     <segue destination="0cK-c3-cZi" kind="show" id="hWV-BF-uPj"/>
                                 </connections>
                             </button>
@@ -70,6 +73,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="qFl-cd-Vqb" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
@@ -768,8 +772,8 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="tintColor" red="0.52156862749999999" green="0.71372549019999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </progressView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animales" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3K-8p-HiQ">
-                                                        <rect key="frame" x="47" y="20" width="86" height="26"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animals" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3K-8p-HiQ">
+                                                        <rect key="frame" x="47" y="20" width="75" height="26"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
                                                         <nil key="textColor"/>
@@ -815,6 +819,9 @@
                             <constraint firstItem="gnv-JP-OuA" firstAttribute="leading" secondItem="trb-qb-xxh" secondAttribute="leading" id="zdh-1D-yft"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iYc-Ox-yaQ"/>
+                        <connections>
+                            <outlet property="title" destination="f3K-8p-HiQ" id="8Qn-Lz-WBD"/>
+                        </connections>
                     </view>
                     <size key="freeformSize" width="375" height="1150"/>
                 </viewController>
@@ -827,7 +834,7 @@
         <image name="herbe" width="516" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="NMJ-rX-GyX"/>
+        <segue reference="HRO-SO-AvF"/>
         <segue reference="7gi-46-teT"/>
     </inferredMetricsTieBreakers>
 </document>

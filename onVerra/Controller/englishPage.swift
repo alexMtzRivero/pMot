@@ -10,7 +10,14 @@ import UIKit
 
 class englishPage: UIView {
 
-
+    
+    @IBOutlet weak var title: UILabel!
+    
+    func changeCategories(){
+        title.text = "animaux"
+    }
+        
+    
     
     
     

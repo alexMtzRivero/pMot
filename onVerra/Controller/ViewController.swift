@@ -18,42 +18,49 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    //Button
     @IBOutlet weak var frenchBtn: UIButton!
     @IBOutlet weak var englishBtn: UIButton!
     @IBOutlet weak var spanishBtn: UIButton!
     @IBOutlet weak var data: UILabel!
     var sesion: SesionController!
     
+    //Action french button
+    @IBAction func frenchBtn(_ sender: Any) {
+        //Element selected
+        let cat: Categories = Categories( )
+        
+        print(cat.categories[ "animals" ]![0])
+        
+        //Category name
+        changeCategories()
+        
+    }
+    
+    //Action spanish button
+    @IBAction func spanishBtn(_ sender: Any) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        sesion = SesionController( )
-        
+        //sesion = SesionController( )
         
         frenchBtn.layer.cornerRadius = 5
         englishBtn.layer.cornerRadius = 5
         spanishBtn.layer.cornerRadius = 5
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-    var tab = ["animals" : ["animaux", "animles"],
-        "vehicles" : ["vehicules", "vehiculos"],
-        "toys" : ["jouets", "juguetes"],
-        "clothing" : ["vetement", "ropa"],
-        "outside" : ["exterieur", "exterior"],
-        "places" : ["lieux", "lugares"],
-        "household" : ["maison", "casa"],
-        "body_parts" : ["corps", "cuerpo"],
-        "food_drink" : ["aliment", "comida"],
-        "furniture_rooms" : ["fourniture", "suministro"],
-        "people" : ["personne", "persona"]]
+   
    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
 }
 
