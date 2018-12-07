@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    var tab = ["animaux" : "animals", "jouets" : "toys", "vehicule" : "vehicles", "vetement" : "clothing", "exterieur" : "outside", "lieux" : "places", "maison" : "household", "corps" : "body_parts", "aliment" : "food_drink", "fourniture" : "furniture_rooms", "personne" : "people" ]
    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
