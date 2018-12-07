@@ -8,11 +8,15 @@
 
 import Foundation
 
-class GameController {
+class SesionController {
+    
+    //write modifications on csv
+    
     var allWords:[ Word ] = [ ]
     init() {
         allWords = self.loadAllWords( )
     }
+    
     func loadAllWords ()->[ Word ]{
         let d = readDataFromCSV(fileName: "wordsDB", fileType: "csv")
         return csvToWords(data: d!)
@@ -47,9 +51,30 @@ class GameController {
     }
     
     
+   func getPercentageSown(Category cat: String)->Int{
+    var val = O
+     var words = getWordsFromCategori(Categori: cat)
+    for word in words{
+        if word.showed {
+            val+=1
+        }
+    }
+    val/=words.count
+    return val
+    }
+    // returns the 65/80 in string of label
+    func getNOfTotal (Category cat: String)->Int{
+        var val = O
+        var words = getWordsFromCategori(Categori: cat)
+        for word in words{
+            if word.showed {
+                val+=1
+            }
+        }
+        return ""+val+"/"+words.count
+    }
     
-    
-    func getWordsFromCategori(categori cat: String)->[ Word ]{
+    func getWordsFromCategori(Categori cat: String)->[ Word ]{
         var cured:[Word] = [ ]
         for word in allWords{
             if word.category == cat {

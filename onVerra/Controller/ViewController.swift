@@ -22,9 +22,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var englishBtn: UIButton!
     @IBOutlet weak var spanishBtn: UIButton!
     @IBOutlet weak var data: UILabel!
+    var sesion: SesionController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        sesion = SesionController( )
+        
+        
         frenchBtn.layer.cornerRadius = 5
         englishBtn.layer.cornerRadius = 5
         spanishBtn.layer.cornerRadius = 5
