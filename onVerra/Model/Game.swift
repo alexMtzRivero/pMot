@@ -14,5 +14,20 @@ class Game{
         self.words = words
         points = 0
     }
+    func newtWord() {
+        if words.count == 0{
+            endGame()
+        }
+        else{
+            //doStuf
+        }
+    }
+    func pop() -> Word {
+        let number = Int(arc4random_uniform(UInt32(words.count)) + 1)
+        return words.remove(at: number)
+    }
+    func endGame()  {
+        
+    }
     
 }
