@@ -1,35 +1,29 @@
 //
-//  GameViewController.swift
+//  OptionsViewController.swift
 //  onVerra
 //
-//  Created by Alejandro Martinez Rivero on 07/12/2018.
+//  Created by Alejandro Martinez Rivero on 10/12/2018.
 //  Copyright © 2018 Alejandro Martinez Rivero. All rights reserved.
 //
 
 import UIKit
 
-class GameViewController: UIViewController {
+class OptionsViewController: UIViewController {
 
+
+    @IBOutlet weak var label: UILabel!
+    var a:String = " no"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
+
+        label.text = a
+       
     }
 
-   
-    
-    @IBOutlet weak var image: UILabel!
-    
-  
-    
-    @IBOutlet weak var option1: UIButton!
-    @IBOutlet weak var option2: UIButton!
-    
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-       image.text = "aasdfasdf"
     }
     
 

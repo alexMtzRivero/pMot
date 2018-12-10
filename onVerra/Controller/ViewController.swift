@@ -24,38 +24,54 @@ class ViewController: UIViewController {
     @IBOutlet weak var englishBtn: UIButton!
     @IBOutlet weak var spanishBtn: UIButton!
     @IBOutlet weak var data: UILabel!
+  
+    @IBOutlet weak var categoryItem: CategoryViewController!
+    
+    
+   
     var sesion: SesionController!
     
     //Action french button
-    @IBAction func frenchBtn(_ sender: Any) {
-        //Element selected
-        let cat: Categories = Categories( )
+
+    @IBAction func frenchAction(_ sender: Any) {
+       var text = ""
+    performSegue(withIdentifier: "FrSegue", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var secondController = segue.destination as! OptionsViewController
+        secondController.a =
+    }
+    
+    @IBAction func ChooseCategory(_ sender: Any) {
         
-        print(cat.categories[ "animals" ]![0])
-        
-        //Category name
-        changeCategories()
         
     }
     
     //Action spanish button
     @IBAction func spanishBtn(_ sender: Any) {
+        //changeCategories()
     }
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+     
         
         //sesion = SesionController( )
         
-        sesion = SesionController( )
-        sesion.saveCsv()
+        //sesion = SesionController( )
+        //sesion.saveCsv()
         
         frenchBtn.layer.cornerRadius = 5
         englishBtn.layer.cornerRadius = 5
         spanishBtn.layer.cornerRadius = 5
+  
+
         
     }
+    
 
    
    

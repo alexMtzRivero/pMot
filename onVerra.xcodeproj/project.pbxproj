@@ -21,13 +21,22 @@
 		9E5DF3B521B824D700842BD9 /* englishPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5DF3AF21B824D700842BD9 /* englishPage.swift */; };
 		9E5DF3B621B824D700842BD9 /* SesionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5DF3B021B824D700842BD9 /* SesionController.swift */; };
 		9E5DF3B721B824D700842BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5DF3B121B824D700842BD9 /* ViewController.swift */; };
-		F13901DE21BA732100368F79 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13901DD21BA732100368F79 /* Categories.swift */; };
 		9E71374521BA7894003B6F64 /* wordsDB.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9E71374421BA7894003B6F64 /* wordsDB.csv */; };
 		9E71374621BA7894003B6F64 /* wordsDB.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9E71374421BA7894003B6F64 /* wordsDB.csv */; };
 		9E71374721BA7894003B6F64 /* wordsDB.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9E71374421BA7894003B6F64 /* wordsDB.csv */; };
 		9E71374D21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
 		9E71374E21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
 		9E71374F21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
+		9EE792A221BE599F00F367E1 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE792A121BE599F00F367E1 /* CategoryViewController.swift */; };
+		9EE792A321BE599F00F367E1 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE792A121BE599F00F367E1 /* CategoryViewController.swift */; };
+		9EE792A421BE599F00F367E1 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE792A121BE599F00F367E1 /* CategoryViewController.swift */; };
+		9EE792A621BE5D3C00F367E1 /* CategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EE792A521BE5D3C00F367E1 /* CategoryView.xib */; };
+		9EE792A721BE5D3C00F367E1 /* CategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EE792A521BE5D3C00F367E1 /* CategoryView.xib */; };
+		9EE792A821BE5D3C00F367E1 /* CategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EE792A521BE5D3C00F367E1 /* CategoryView.xib */; };
+		9EE792AA21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE792A921BE7A7B00F367E1 /* OptionsViewController.swift */; };
+		9EE792AB21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE792A921BE7A7B00F367E1 /* OptionsViewController.swift */; };
+		9EE792AC21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE792A921BE7A7B00F367E1 /* OptionsViewController.swift */; };
+		F13901DE21BA732100368F79 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13901DD21BA732100368F79 /* Categories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +77,12 @@
 		9E5DF3AF21B824D700842BD9 /* englishPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = englishPage.swift; sourceTree = "<group>"; };
 		9E5DF3B021B824D700842BD9 /* SesionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SesionController.swift; sourceTree = "<group>"; };
 		9E5DF3B121B824D700842BD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F13901DD21BA732100368F79 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		9E71374421BA7894003B6F64 /* wordsDB.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wordsDB.csv; path = onVerra/wordsDB.csv; sourceTree = SOURCE_ROOT; };
 		9E71374C21BA9D1C003B6F64 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9EE792A121BE599F00F367E1 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		9EE792A521BE5D3C00F367E1 /* CategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryView.xib; sourceTree = "<group>"; };
+		9EE792A921BE7A7B00F367E1 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		F13901DD21BA732100368F79 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				9E34D78621B5100300359A0C /* Main.storyboard */,
+				9EE792A521BE5D3C00F367E1 /* CategoryView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,8 +177,10 @@
 				9E5DF3AE21B824D700842BD9 /* spanishPage.swift */,
 				9E71374C21BA9D1C003B6F64 /* GameViewController.swift */,
 				9E71374421BA7894003B6F64 /* wordsDB.csv */,
+				9EE792A921BE7A7B00F367E1 /* OptionsViewController.swift */,
 				9E5DF3B121B824D700842BD9 /* ViewController.swift */,
 				9E5DF3AD21B824D700842BD9 /* wordsDB.numbers */,
+				9EE792A121BE599F00F367E1 /* CategoryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -299,6 +314,7 @@
 				9E34D78A21B5100400359A0C /* Assets.xcassets in Resources */,
 				9E5DF3B321B824D700842BD9 /* wordsDB.numbers in Resources */,
 				9E34D78821B5100300359A0C /* Main.storyboard in Resources */,
+				9EE792A621BE5D3C00F367E1 /* CategoryView.xib in Resources */,
 				9E71374521BA7894003B6F64 /* wordsDB.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE792A721BE5D3C00F367E1 /* CategoryView.xib in Resources */,
 				9E71374621BA7894003B6F64 /* wordsDB.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE792A821BE5D3C00F367E1 /* CategoryView.xib in Resources */,
 				9E71374721BA7894003B6F64 /* wordsDB.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,9 +349,11 @@
 				9E5DF3B721B824D700842BD9 /* ViewController.swift in Sources */,
 				9E5DF3B421B824D700842BD9 /* spanishPage.swift in Sources */,
 				9E71374D21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
+				9EE792A221BE599F00F367E1 /* CategoryViewController.swift in Sources */,
 				9E5DF3B521B824D700842BD9 /* englishPage.swift in Sources */,
 				F13901DE21BA732100368F79 /* Categories.swift in Sources */,
 				9E5DF3B621B824D700842BD9 /* SesionController.swift in Sources */,
+				9EE792AA21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */,
 				9E5DF3B221B824D700842BD9 /* frenchPage.swift in Sources */,
 				9E34D78321B5100300359A0C /* AppDelegate.swift in Sources */,
 			);
@@ -344,7 +364,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E71374E21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
+				9EE792AB21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */,
 				9E34D79821B5100400359A0C /* onVerraTests.swift in Sources */,
+				9EE792A321BE599F00F367E1 /* CategoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +375,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E71374F21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
+				9EE792AC21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */,
 				9E34D7A321B5100400359A0C /* onVerraUITests.swift in Sources */,
+				9EE792A421BE599F00F367E1 /* CategoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
