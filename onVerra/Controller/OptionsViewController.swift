@@ -10,6 +10,11 @@ import UIKit
 
 class OptionsViewController: UIViewController {
 
+     public var langage: String = String()
+    var category: String = String()
+    var names:[String:[String]]
+    var langN = -1
+    
     @IBOutlet weak var vehicles: CategoryViewController!
     @IBOutlet weak var animals: CategoryViewController!
     @IBOutlet weak var toys: CategoryViewController!
@@ -21,15 +26,22 @@ class OptionsViewController: UIViewController {
     @IBOutlet weak var food: CategoryViewController!
     @IBOutlet weak var furniture: CategoryViewController!
     @IBOutlet weak var people: CategoryViewController!
-    
     @IBOutlet weak var label: UILabel!
-    var a:String = " no"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        label.text = a
-       
+        if langage == "fr"{
+        changeLang(n: 0)
+        }
+        if langage == "es"{
+            changeLang(n: 1)
+        }
+        
+    }
+    func changeLang(n: Int){
+        
+        vehicles.title?.text =
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,14 +50,6 @@ class OptionsViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
 
 }

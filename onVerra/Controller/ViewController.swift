@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var spanishBtn: UIButton!
     @IBOutlet weak var data: UILabel!
   
-    @IBOutlet weak var categoryItem: CategoryViewController!
+    var text: String = "en"
     
     
    
@@ -34,35 +34,27 @@ class ViewController: UIViewController {
     //Action french button
 
     @IBAction func frenchAction(_ sender: Any) {
-       var text = ""
+        text = "fr"
     performSegue(withIdentifier: "FrSegue", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var secondController = segue.destination as! OptionsViewController
-        secondController.a =
-    }
-    
-    @IBAction func ChooseCategory(_ sender: Any) {
-        
-        
+        let secondController = segue.destination as! OptionsViewController
+        secondController.langage = text
     }
     
     //Action spanish button
     @IBAction func spanishBtn(_ sender: Any) {
         //changeCategories()
+         text = "es"
+        performSegue(withIdentifier: "FrSegue", sender: self)
     }
     
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     
-        
-        //sesion = SesionController( )
-        
-        //sesion = SesionController( )
-        //sesion.saveCsv()
+      
         
         frenchBtn.layer.cornerRadius = 5
         englishBtn.layer.cornerRadius = 5

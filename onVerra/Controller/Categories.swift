@@ -6,9 +6,8 @@
 //  Copyright © 2018 Alejandro Martinez Rivero. All rights reserved.
 //
 
-import UIKit
 
-class Categories{
+open class Categories{
 
     var categories = ["animals" : ["animaux", "animles"],
                "vehicles" : ["vehicules", "vehiculos"],
