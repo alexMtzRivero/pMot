@@ -850,7 +850,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iYc-Ox-yaQ"/>
                         <connections>
+                            <outlet property="bodyparts" destination="0Eq-ej-Bwg" id="NQq-K6-A8Z"/>
+                            <outlet property="clothing" destination="qpw-Mz-DJy" id="iQk-Du-aCo"/>
+                            <outlet property="fooddrink" destination="GjS-Ti-3Mn" id="mOg-kh-gPc"/>
+                            <outlet property="furniture" destination="dDH-x7-gic" id="CFC-Vu-OK1"/>
+                            <outlet property="household" destination="KqC-ve-zo8" id="YwV-9t-5En"/>
+                            <outlet property="outside" destination="9ij-NQ-hOd" id="i0b-gt-aJr"/>
+                            <outlet property="people" destination="tf5-43-9EZ" id="SaA-uj-m8R"/>
+                            <outlet property="places" destination="znX-jX-TPd" id="fth-iY-sjg"/>
                             <outlet property="title" destination="f3K-8p-HiQ" id="8Qn-Lz-WBD"/>
+                            <outlet property="toys" destination="1xA-JI-Dv2" id="4O3-Pf-Sfr"/>
+                            <outlet property="vehicles" destination="QZ1-h6-gsi" id="wAA-mD-chD"/>
                         </connections>
                     </view>
                     <size key="freeformSize" width="375" height="1150"/>

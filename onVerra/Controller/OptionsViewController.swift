@@ -10,7 +10,18 @@ import UIKit
 
 class OptionsViewController: UIViewController {
 
-
+    @IBOutlet weak var vehicles: CategoryViewController!
+    @IBOutlet weak var animals: CategoryViewController!
+    @IBOutlet weak var toys: CategoryViewController!
+    @IBOutlet weak var clothing: CategoryViewController!
+    @IBOutlet weak var outside: CategoryViewController!
+    @IBOutlet weak var places: CategoryViewController!
+    @IBOutlet weak var household: CategoryViewController!
+    @IBOutlet weak var bodyparts: CategoryViewController!
+    @IBOutlet weak var food: CategoryViewController!
+    @IBOutlet weak var furniture: CategoryViewController!
+    @IBOutlet weak var people: CategoryViewController!
+    
     @IBOutlet weak var label: UILabel!
     var a:String = " no"
     
