@@ -53,7 +53,20 @@ class OptionsViewController: UIViewController {
         
         
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondController = segue.destination as! LevelViewController
+        secondController.category = self.category
+    
+    }
 
+    @IBAction func catSelected(_ sender: Any) {
+        let buttonCat:UIButton = sender as! UIButton
+        let catView: CategoryViewController =  buttonCat.superview as! CategoryViewController
+        category = (catView.title?.text?.lowercased())!
+    
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

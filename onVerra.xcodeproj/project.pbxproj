@@ -27,6 +27,9 @@
 		9E71374D21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
 		9E71374E21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
 		9E71374F21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
+		9EC53BBC21C001AC003755A6 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC53BBB21C001AC003755A6 /* LevelViewController.swift */; };
+		9EC53BBD21C001AC003755A6 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC53BBB21C001AC003755A6 /* LevelViewController.swift */; };
+		9EC53BBE21C001AC003755A6 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC53BBB21C001AC003755A6 /* LevelViewController.swift */; };
 		9EE792A221BE599F00F367E1 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE792A121BE599F00F367E1 /* CategoryViewController.swift */; };
 		9EE792A321BE599F00F367E1 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE792A121BE599F00F367E1 /* CategoryViewController.swift */; };
 		9EE792A421BE599F00F367E1 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE792A121BE599F00F367E1 /* CategoryViewController.swift */; };
@@ -79,6 +82,7 @@
 		9E5DF3B121B824D700842BD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E71374421BA7894003B6F64 /* wordsDB.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wordsDB.csv; path = onVerra/wordsDB.csv; sourceTree = SOURCE_ROOT; };
 		9E71374C21BA9D1C003B6F64 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9EC53BBB21C001AC003755A6 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
 		9EE792A121BE599F00F367E1 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		9EE792A521BE5D3C00F367E1 /* CategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryView.xib; sourceTree = "<group>"; };
 		9EE792A921BE7A7B00F367E1 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 				9E5DF3AE21B824D700842BD9 /* spanishPage.swift */,
 				9E71374C21BA9D1C003B6F64 /* GameViewController.swift */,
 				9E71374421BA7894003B6F64 /* wordsDB.csv */,
+				9EC53BBB21C001AC003755A6 /* LevelViewController.swift */,
 				9EE792A921BE7A7B00F367E1 /* OptionsViewController.swift */,
 				9E5DF3B121B824D700842BD9 /* ViewController.swift */,
 				9E5DF3AD21B824D700842BD9 /* wordsDB.numbers */,
@@ -347,6 +352,7 @@
 				9E5DF3AB21B8242C00842BD9 /* Word.swift in Sources */,
 				9E5DF3A921B8242600842BD9 /* Game.swift in Sources */,
 				9E5DF3B721B824D700842BD9 /* ViewController.swift in Sources */,
+				9EC53BBC21C001AC003755A6 /* LevelViewController.swift in Sources */,
 				9E5DF3B421B824D700842BD9 /* spanishPage.swift in Sources */,
 				9E71374D21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
 				9EE792A221BE599F00F367E1 /* CategoryViewController.swift in Sources */,
@@ -364,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E71374E21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
+				9EC53BBD21C001AC003755A6 /* LevelViewController.swift in Sources */,
 				9EE792AB21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */,
 				9E34D79821B5100400359A0C /* onVerraTests.swift in Sources */,
 				9EE792A321BE599F00F367E1 /* CategoryViewController.swift in Sources */,
@@ -375,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E71374F21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
+				9EC53BBE21C001AC003755A6 /* LevelViewController.swift in Sources */,
 				9EE792AC21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */,
 				9E34D7A321B5100400359A0C /* onVerraUITests.swift in Sources */,
 				9EE792A421BE599F00F367E1 /* CategoryViewController.swift in Sources */,

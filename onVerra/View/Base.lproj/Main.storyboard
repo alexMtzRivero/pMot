@@ -74,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
-        <!--Options View Controller-->
+        <!--Level View Controller-->
         <scene sceneID="l8D-jf-pa2">
             <objects>
-                <viewController id="r7M-Qe-g7E" customClass="OptionsViewController" customModule="onVerra" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="r7M-Qe-g7E" customClass="LevelViewController" customModule="onVerra" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ez4-2a-yT6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -401,6 +401,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="w4M-Lx-BXM"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="rYP-ly-S1f"/>
                                                         </connections>
                                                     </button>
@@ -444,6 +445,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="8Am-il-6ou"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="IoR-sY-3he"/>
                                                         </connections>
                                                     </button>
@@ -494,6 +496,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="Pz5-qN-Nrb"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="oUg-eL-IT4"/>
                                                         </connections>
                                                     </button>
@@ -537,6 +540,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="ezT-9j-LsA"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="Qql-3G-lTb"/>
                                                         </connections>
                                                     </button>
@@ -580,6 +584,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="Zcm-Iz-vtH"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="59T-84-7GL"/>
                                                         </connections>
                                                     </button>
@@ -623,6 +628,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="o8H-bx-wzB"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="Jap-gQ-Jt9"/>
                                                         </connections>
                                                     </button>
@@ -666,6 +672,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="LXy-vo-Hdc"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="erd-sx-F8s"/>
                                                         </connections>
                                                     </button>
@@ -708,6 +715,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="wcr-hb-Q2L"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="Um6-i4-jd7"/>
                                                         </connections>
                                                     </button>
@@ -751,6 +759,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="2LE-FK-6Wt"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="cND-eL-sIb"/>
                                                         </connections>
                                                     </button>
@@ -794,6 +803,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="Uf3-kY-1jW"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="7gi-46-teT"/>
                                                         </connections>
                                                     </button>
@@ -846,6 +856,7 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="ChooseCategory:" destination="0cK-c3-cZi" eventType="touchUpInside" id="Pws-wC-C4c"/>
+                                                            <action selector="catSelected:" destination="0cK-c3-cZi" eventType="touchUpInside" id="pQp-S6-7v6"/>
                                                             <segue destination="r7M-Qe-g7E" kind="show" id="gpF-hl-1aV"/>
                                                         </connections>
                                                     </button>
