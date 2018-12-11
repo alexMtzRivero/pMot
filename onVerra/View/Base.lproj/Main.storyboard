@@ -40,8 +40,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="spanishBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ypw-9x-8Ku"/>
-                                    <segue destination="0cK-c3-cZi" kind="show" identifier="frenchversion" id="HRO-SO-AvF"/>
+                                    <action selector="spanishBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NX7-bn-ZTX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIH-Yn-ya6">
@@ -68,7 +67,7 @@
                     <connections>
                         <outlet property="englishBtn" destination="FQI-tG-W9a" id="OzM-y0-5jh"/>
                         <outlet property="frenchBtn" destination="oIH-Yn-ya6" id="dqE-yY-ICD"/>
-                        <outlet property="spanishBtn" destination="bEL-ch-4ot" id="1Jd-7R-jJd"/>
+                        <outlet property="spanishBtn" destination="bEL-ch-4ot" id="lLx-z3-ERA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -390,7 +389,7 @@
                                     <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8x6-4N-SaT">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1136"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wA8-dA-04I">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wA8-dA-04I" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="101" width="343" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -426,8 +425,14 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="button" destination="30D-fJ-XLf" id="0Eb-Rs-S1x"/>
+                                                    <outlet property="pBar" destination="uq4-nF-rWK" id="1WC-fJ-OqB"/>
+                                                    <outlet property="score" destination="wtM-nH-Mwt" id="aX7-Wm-7ay"/>
+                                                    <outlet property="title" destination="QZ1-h6-gsi" id="Kc3-Ct-cRb"/>
+                                                </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C9M-10-vUZ">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C9M-10-vUZ" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="194" width="343" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -463,8 +468,14 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="button" destination="tC3-eT-jQp" id="TnE-S5-EAV"/>
+                                                    <outlet property="pBar" destination="jq6-XJ-5ob" id="6EJ-pf-2bi"/>
+                                                    <outlet property="score" destination="wxu-z4-QHC" id="Hpm-oB-msa"/>
+                                                    <outlet property="title" destination="1xA-JI-Dv2" id="oBT-bB-obd"/>
+                                                </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dKq-k9-CQl">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dKq-k9-CQl" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="287" width="343" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -507,8 +518,14 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="button" destination="71H-fs-Jkx" id="uXO-or-Geo"/>
+                                                    <outlet property="pBar" destination="8qx-aY-3KO" id="348-Qg-vuv"/>
+                                                    <outlet property="score" destination="b96-Tk-wTO" id="h5u-G4-dlQ"/>
+                                                    <outlet property="title" destination="qpw-Mz-DJy" id="LLr-o9-YYm"/>
+                                                </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rvs-Z9-aGk">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rvs-Z9-aGk" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="380" width="343" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -544,8 +561,14 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="button" destination="KqM-cC-EbY" id="rKr-OX-M7E"/>
+                                                    <outlet property="pBar" destination="GPu-AH-CFN" id="Ztb-2w-Kmd"/>
+                                                    <outlet property="score" destination="tNU-TY-yav" id="jjY-VW-Ecd"/>
+                                                    <outlet property="title" destination="9ij-NQ-hOd" id="ISr-UM-8xs"/>
+                                                </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ucn-C5-ZA8">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ucn-C5-ZA8" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="473" width="343" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -581,8 +604,14 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="button" destination="YaM-EV-zkX" id="zdo-w8-Fh4"/>
+                                                    <outlet property="pBar" destination="akW-B9-poZ" id="Dsl-PE-Nvm"/>
+                                                    <outlet property="score" destination="yha-Ao-Jgv" id="od8-KN-k0a"/>
+                                                    <outlet property="title" destination="znX-jX-TPd" id="fra-b0-htT"/>
+                                                </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S0y-cL-wq6">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S0y-cL-wq6" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="566" width="343" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -618,8 +647,14 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="button" destination="b4K-Jl-R7r" id="XXk-MN-ofH"/>
+                                                    <outlet property="pBar" destination="Add-xx-Kw6" id="GHN-GE-5NS"/>
+                                                    <outlet property="score" destination="lHQ-rv-8NO" id="Tct-JA-v19"/>
+                                                    <outlet property="title" destination="KqC-ve-zo8" id="1j3-xA-UAd"/>
+                                                </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOY-pI-WQA">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOY-pI-WQA" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="659" width="343" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -639,8 +674,8 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="tintColor" red="0.52156862749999999" green="0.71372549019999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </progressView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Body parts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Eq-ej-Bwg">
-                                                        <rect key="frame" x="47" y="20" width="100" height="26"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Body_parts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Eq-ej-Bwg">
+                                                        <rect key="frame" x="47" y="20" width="104" height="26"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
                                                         <nil key="textColor"/>
@@ -655,8 +690,13 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="pBar" destination="I3L-cg-68m" id="zbZ-18-8Ba"/>
+                                                    <outlet property="score" destination="fPi-Tx-YZb" id="mcY-n8-ebe"/>
+                                                    <outlet property="title" destination="0Eq-ej-Bwg" id="3jp-fc-bKM"/>
+                                                </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qEG-wX-fb1">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qEG-wX-fb1" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="752" width="343" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -676,8 +716,8 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="tintColor" red="0.52156862749999999" green="0.71372549019999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </progressView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food drink" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjS-Ti-3Mn">
-                                                        <rect key="frame" x="47" y="20" width="100" height="26"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food_drink" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjS-Ti-3Mn">
+                                                        <rect key="frame" x="47" y="20" width="105" height="26"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
                                                         <nil key="textColor"/>
@@ -692,8 +732,14 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="button" destination="L9r-ZA-5C4" id="Vum-Ul-Sql"/>
+                                                    <outlet property="pBar" destination="WaQ-2j-54H" id="Qb2-U9-1wq"/>
+                                                    <outlet property="score" destination="rdh-Tl-nWz" id="XIU-gi-L4F"/>
+                                                    <outlet property="title" destination="GjS-Ti-3Mn" id="e5d-lB-Gwq"/>
+                                                </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pv4-Sq-Y4b">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pv4-Sq-Y4b" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="845" width="343" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -713,8 +759,8 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="tintColor" red="0.52156862749999999" green="0.71372549019999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </progressView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Furniture rooms" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDH-x7-gic">
-                                                        <rect key="frame" x="47" y="20" width="147" height="26"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Furniture_rooms" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDH-x7-gic">
+                                                        <rect key="frame" x="47" y="20" width="152" height="26"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
                                                         <nil key="textColor"/>
@@ -729,8 +775,14 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="button" destination="nFf-RH-cLG" id="Vjh-YT-PHG"/>
+                                                    <outlet property="pBar" destination="RzX-Dd-Wud" id="fxw-5D-uPh"/>
+                                                    <outlet property="score" destination="Oeq-Sw-fPl" id="df3-Uv-dOF"/>
+                                                    <outlet property="title" destination="dDH-x7-gic" id="uCH-Eu-pny"/>
+                                                </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v1s-4P-WhL">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v1s-4P-WhL" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="938" width="343" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -766,6 +818,12 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="button" destination="Fsb-HZ-yIH" id="ILq-Be-Aqj"/>
+                                                    <outlet property="pBar" destination="Iuj-c8-9pO" id="xxl-Nv-lcj"/>
+                                                    <outlet property="score" destination="kBp-O3-doU" id="Xkz-bw-Oud"/>
+                                                    <outlet property="title" destination="tf5-43-9EZ" id="dd9-H3-ipX"/>
+                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZLu-s2-jgM" customClass="CategoryViewController" customModule="onVerra" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="8" width="343" height="85"/>
@@ -850,22 +908,22 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iYc-Ox-yaQ"/>
                         <connections>
-                            <outlet property="bodyparts" destination="0Eq-ej-Bwg" id="NQq-K6-A8Z"/>
-                            <outlet property="clothing" destination="qpw-Mz-DJy" id="iQk-Du-aCo"/>
-                            <outlet property="fooddrink" destination="GjS-Ti-3Mn" id="mOg-kh-gPc"/>
-                            <outlet property="furniture" destination="dDH-x7-gic" id="CFC-Vu-OK1"/>
-                            <outlet property="household" destination="KqC-ve-zo8" id="YwV-9t-5En"/>
-                            <outlet property="outside" destination="9ij-NQ-hOd" id="i0b-gt-aJr"/>
-                            <outlet property="people" destination="tf5-43-9EZ" id="SaA-uj-m8R"/>
-                            <outlet property="places" destination="znX-jX-TPd" id="fth-iY-sjg"/>
                             <outlet property="title" destination="f3K-8p-HiQ" id="8Qn-Lz-WBD"/>
-                            <outlet property="toys" destination="1xA-JI-Dv2" id="4O3-Pf-Sfr"/>
-                            <outlet property="vehicles" destination="QZ1-h6-gsi" id="wAA-mD-chD"/>
                         </connections>
                     </view>
                     <size key="freeformSize" width="375" height="1150"/>
                     <connections>
-                        <outlet property="label" destination="f3K-8p-HiQ" id="90L-JC-wAN"/>
+                        <outlet property="animals" destination="ZLu-s2-jgM" id="xw0-T7-j2C"/>
+                        <outlet property="bodyparts" destination="dOY-pI-WQA" id="uGe-L4-C86"/>
+                        <outlet property="clothing" destination="dKq-k9-CQl" id="cIj-At-uuW"/>
+                        <outlet property="food" destination="qEG-wX-fb1" id="5UE-fX-ZHj"/>
+                        <outlet property="furniture" destination="Pv4-Sq-Y4b" id="gXc-VU-xzO"/>
+                        <outlet property="household" destination="S0y-cL-wq6" id="YOV-NM-Ioe"/>
+                        <outlet property="outside" destination="rvs-Z9-aGk" id="N4b-4c-PUi"/>
+                        <outlet property="people" destination="v1s-4P-WhL" id="DCe-Ex-SoO"/>
+                        <outlet property="places" destination="Ucn-C5-ZA8" id="vWu-0o-yxD"/>
+                        <outlet property="toys" destination="C9M-10-vUZ" id="aau-WY-uQK"/>
+                        <outlet property="vehicles" destination="wA8-dA-04I" id="lUa-jA-DlO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gHI-na-lTM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -877,7 +935,7 @@
         <image name="herbe" width="516" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="efx-18-kbD"/>
+        <segue reference="NMJ-rX-GyX"/>
         <segue reference="gpF-hl-1aV"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -41,6 +41,8 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let secondController = segue.destination as! OptionsViewController
         secondController.langage = text
+        
+        secondController.names = Categories().categories
     }
     
     //Action spanish button

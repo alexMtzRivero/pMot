@@ -12,7 +12,7 @@ class OptionsViewController: UIViewController {
 
      public var langage: String = String()
     var category: String = String()
-    var names:[String:[String]]
+    var names:[String:[String]] = [:]
     var langN = -1
     
     @IBOutlet weak var vehicles: CategoryViewController!
@@ -33,14 +33,24 @@ class OptionsViewController: UIViewController {
         if langage == "fr"{
         changeLang(n: 0)
         }
-        if langage == "es"{
+        else if langage == "es"{
             changeLang(n: 1)
         }
         
     }
     func changeLang(n: Int){
+        vehicles.title?.text = names[vehicles.title!.text!.lowercased()]![n]
+        animals.title?.text = names[animals.title!.text!.lowercased()]![n]
+        toys.title?.text = names[toys.title!.text!.lowercased()]![n]
+        clothing.title?.text = names[clothing.title!.text!.lowercased()]![n]
+        outside.title?.text = names[outside.title!.text!.lowercased()]![n]
+        places.title?.text = names[places.title!.text!.lowercased()]![n]
+        household.title?.text = names[household.title!.text!.lowercased()]![n]
+        bodyparts.title?.text = names[bodyparts.title!.text!.lowercased()]![n]
+        food.title?.text = names[food.title!.text!.lowercased()]![n]
+        furniture.title?.text = names[furniture.title!.text!.lowercased()]![n]
+        people.title?.text = names[people.title!.text!.lowercased()]![n]
         
-        vehicles.title?.text =
         
     }
 
