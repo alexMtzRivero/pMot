@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "onVerra/Controller/OptionsViewController.swift"
-            timestampString = "566313389.833692"
+            timestampString = "566317550.592927"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "onVerra/Controller/OptionsViewController.swift"
-            timestampString = "566313389.834601"
+            timestampString = "566317550.593261"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "onVerra/Controller/OptionsViewController.swift"
-            timestampString = "566313389.834819"
+            timestampString = "566317550.593544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "catSelected(_:)"
             landmarkType = "7">
             <Locations>
@@ -255,6 +255,54 @@
                   startingLineNumber = "65"
                   endingLineNumber = "65"
                   offsetFromSymbolStart = "1151">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "onVerra/Controller/OptionsViewController.swift"
+            timestampString = "566317550.593737"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "onVerra.OptionsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "onVerra"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martalej/Desktop/pMot/onVerra/Controller/OptionsViewController.swift"
+                  timestampString = "566316089.2798541"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "4867">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "onVerra.OptionsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "onVerra"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martalej/Desktop/pMot/onVerra/Controller/OptionsViewController.swift"
+                  timestampString = "566316089.283689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "6200">
                </Location>
             </Locations>
          </BreakpointContent>

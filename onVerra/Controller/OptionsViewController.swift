@@ -43,7 +43,8 @@ class OptionsViewController: UIViewController {
         catCards.append( furniture)
         catCards.append( people)
         for card in catCards{
-            card.score?.text = SesionController.getNOfTotal(Category: (card.title?.text)! )
+            card.score?.text = SesionController.getNOfTotal(Category: (card.title?.text)!.lowercased() )
+            card.pBar?.setProgress(0.20, animated: true)
         }
             
         
