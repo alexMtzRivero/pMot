@@ -59,7 +59,9 @@ class Game3ViewController: UIViewController {
             worldLabel.text = word?.getlang(lang: langue)
         }
         else{
-            worldLabel.text = "se acabo"
+            worldLabel.textColor = UIColor.black
+            worldLabel.text = "\(game.points)/\(game.allOptions.count)"
+         
         }
     }
     

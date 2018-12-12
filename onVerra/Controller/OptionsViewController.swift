@@ -73,11 +73,12 @@ class OptionsViewController: UIViewController {
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if segue.identifier != "back" {
         let secondController = segue.destination as! LevelViewController
         secondController.category = self.category
         secondController.langueLearn = self.langueLearn
         secondController.langue = self.langage
+        }
     
     }
 

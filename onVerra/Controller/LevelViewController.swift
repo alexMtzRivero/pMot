@@ -40,11 +40,8 @@ class LevelViewController: UIViewController {
             secondController.category = self.category
             secondController.langue = self.langue
             secondController.langueLearn = self.langueLearn
-        default:
-            let secondController = segue.destination as! Game1ViewController
-            secondController.category = self.category
-            secondController.langue = self.langue
-            secondController.langueLearn = self.langueLearn
+        default: let secondController = 1
+            
         }
        
     }

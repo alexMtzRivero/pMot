@@ -69,7 +69,12 @@ class Game1ViewController: UIViewController {
             worldLabel.text = word?.getlang(lang: langue)
         }
         else{
-            worldLabel.text = "se acabo"
+             worldLabel.textColor = UIColor.black
+            worldLabel.text = "\(game.points)/\(game.allOptions.count)"
+            for b in bOptions{
+                b.isEnabled = false
+
+            }
         }
     }
     
@@ -81,6 +86,7 @@ class Game1ViewController: UIViewController {
         let answer = button.titleLabel!.text
         if answer == game.currentWorld.getlang(lang: langueLearn){
             worldLabel.textColor = UIColor.green
+            game.points += 1
         }
         else{
              worldLabel.textColor = UIColor.red
