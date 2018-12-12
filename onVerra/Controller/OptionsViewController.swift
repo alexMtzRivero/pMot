@@ -56,6 +56,7 @@ class OptionsViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let secondController = segue.destination as! LevelViewController
         secondController.category = self.category
+        secondController.langue = self.langage
     
     }
 

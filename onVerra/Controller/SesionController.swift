@@ -25,6 +25,16 @@ class SesionController {
         let d = readDataFromCSV(path:Path)
         return csvToWords(data: d!)
     }
+    func loadCategory (category:String)->[ Word ]{
+        var wCategory:[Word] = [ ]
+        for c in allWords{
+            if c.category == category{
+                wCategory.append(c)
+            }
+        }
+        return wCategory
+        
+    }
     
     
     func readDataFromCSV(path: String)-> String!{

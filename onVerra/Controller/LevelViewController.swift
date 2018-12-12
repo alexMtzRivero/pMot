@@ -20,6 +20,11 @@ class LevelViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       let secondController = segue.destination as! GameViewController
+        secondController.category = self.category
+        secondController.langue = self.langue
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
