@@ -7,8 +7,11 @@
 //
 
 import Foundation
+// main object of a game
 public class Game{
+    // array to modify in the game
     var words:[ Word ]
+    // all the worlds of a category, used to give options
     var allOptions:[Word]
     var points: Int
     var currentWorld:Word!
@@ -28,10 +31,12 @@ public class Game{
             return  currentWorld
         }
     }
+    // function used to populate button with wrong answers
     func gerRandomOption()-> Word{
         let number = Int(arc4random_uniform(UInt32(allOptions.count)))
         return allOptions[number]
     }
+    // removes and returns a random word of allWords
     func pop() -> Word {
         let number = Int(arc4random_uniform(UInt32(words.count)))
         return words.remove(at: number)

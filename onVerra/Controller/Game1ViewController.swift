@@ -9,11 +9,11 @@
 import UIKit
 
 class Game1ViewController: UIViewController {
-
+//language that the user knows
     var langue:String = String( )
+    // i want to learn this lenguage
     var langueLearn :String = String( )
-    var level: Int = 1
-    var mode:String = String( )
+    
     var category:String = String( )
     var sessionControler = SesionController()
     var game:Game!
@@ -29,9 +29,10 @@ class Game1ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // loads a new game of the selected category translated to english because the keys of the categories are in english
         game = Game(Words: sessionControler.loadCategory(category: translateToEnglish(category: self.category)))
-        // Do any additional setup after loading the view.
+        
+        // sets the buttons to an array to search later
         bOptions.append(option1)
         bOptions.append(option2)
       
@@ -57,6 +58,7 @@ class Game1ViewController: UIViewController {
     }
     func setNewWord( ){
         let word = game.newWord()
+        // if there is a new word continue the game
         if word != nil {
             // sets all options to random words from category
             for b in bOptions{
@@ -68,6 +70,7 @@ class Game1ViewController: UIViewController {
             //shows the new word
             worldLabel.text = word?.getlang(lang: langue)
         }
+        // if not , the game is over and you show the  score
         else{
              worldLabel.textColor = UIColor.black
             worldLabel.text = "\(game.points)/\(game.allOptions.count)"
@@ -77,6 +80,7 @@ class Game1ViewController: UIViewController {
             }
         }
     }
+    // sends data to othes controller
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier != "back" {
             let secondController = segue.destination as! LevelViewController
@@ -88,7 +92,7 @@ class Game1ViewController: UIViewController {
     }
   
   
-    
+    // compares the users answer to the real answer and calls the next word
     @IBAction func nextBClicked(_ sender: Any) {
         let button :UIButton = sender as! UIButton
         let answer = button.titleLabel!.text

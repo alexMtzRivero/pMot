@@ -7,20 +7,24 @@
 //
 
 import Foundation
-
+//in the begining we wanted to be  a user status and data controller but we couldnt modify the csv
 class SesionController {
     
     //write modifications on csv
-    
+    // all data from csv
     static var allWords:[ Word ] = [ ]
+    
     init() {
         SesionController.allWords = self.loadAllWords( )
     }
     
     func loadAllWords ()->[ Word ]{
+        // gets the text from the csv
         let d = readDataFromCSV(fileName: "wordsDB", fileType: "csv")
+        // it gets transformed to objects word
         return csvToWords(data: d!)
     }
+    // not used
     func loadAllWords (Path:String)->[ Word ]{
         let d = readDataFromCSV(path:Path)
         return csvToWords(data: d!)
@@ -138,7 +142,7 @@ class SesionController {
         }
         return "\(val)/\(words.count)"
     }
-    
+    // returns all the words of a category
      static func getWordsFromCategori(Categori cat: String)->[ Word ]{
         var cured:[Word] = [ ]
         for word in SesionController.allWords{

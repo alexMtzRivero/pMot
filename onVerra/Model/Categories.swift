@@ -8,7 +8,7 @@
 
 
 open class Categories{
-
+ // translations of the categories
     var categories = ["animals" : ["animaux", "animles"],
                "vehicles" : ["vehicules", "vehiculos"],
                "toys" : ["jouets", "juguetes"],

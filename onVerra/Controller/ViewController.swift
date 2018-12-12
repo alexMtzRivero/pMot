@@ -68,8 +68,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
-        let sesion = SesionController().loadAllWords()
+      // we call this function to load all csv words to a static variable in Sesion controller
+        let _ = SesionController().loadAllWords()
         frenchBtn.layer.cornerRadius = 5
         englishBtn.layer.cornerRadius = 5
         spanishBtn.layer.cornerRadius = 5
