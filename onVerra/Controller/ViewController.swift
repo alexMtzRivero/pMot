@@ -69,7 +69,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
-        
+        let sesion = SesionController().loadAllWords()
         frenchBtn.layer.cornerRadius = 5
         englishBtn.layer.cornerRadius = 5
         spanishBtn.layer.cornerRadius = 5

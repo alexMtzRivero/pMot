@@ -12,9 +12,9 @@ class SesionController {
     
     //write modifications on csv
     
-    var allWords:[ Word ] = [ ]
+    static var allWords:[ Word ] = [ ]
     init() {
-        allWords = self.loadAllWords( )
+        SesionController.allWords = self.loadAllWords( )
     }
     
     func loadAllWords ()->[ Word ]{
@@ -27,7 +27,7 @@ class SesionController {
     }
     func loadCategory (category:String)->[ Word ]{
         var wCategory:[Word] = [ ]
-        for c in allWords{
+        for c in SesionController.allWords{
             if c.category == category{
                 wCategory.append(c)
             }
@@ -63,7 +63,7 @@ class SesionController {
     
     
     
-    
+    /*
     func saveCsv() {
         let docPath = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent("wordsDB.csv")
         
@@ -95,6 +95,7 @@ class SesionController {
             
     
     }
+ */
     
     
     
@@ -115,9 +116,9 @@ class SesionController {
     }
     
     
-   func getPercentageSown(Category cat: String)->Int{
+   static func getPercentageSown(Category cat: String)->Int{
     var val = 0
-     let words = getWordsFromCategori(Categori: cat)
+    let words = SesionController.getWordsFromCategori(Categori: cat)
     for word in words{
         if word.showed {
             val+=1
@@ -127,9 +128,9 @@ class SesionController {
     return val
     }
     // returns the 65/80 in string of label
-    func getNOfTotal (Category cat: String)->String{
+    static func getNOfTotal (Category cat: String)->String{
         var val = 0
-      let words = getWordsFromCategori(Categori: cat)
+        let words = SesionController.getWordsFromCategori(Categori: cat)
         for word in words{
             if word.showed {
                 val+=1
@@ -138,9 +139,9 @@ class SesionController {
         return "\(val)/\(words.count)"
     }
     
-    func getWordsFromCategori(Categori cat: String)->[ Word ]{
+     static func getWordsFromCategori(Categori cat: String)->[ Word ]{
         var cured:[Word] = [ ]
-        for word in allWords{
+        for word in SesionController.allWords{
             if word.category == cat {
                 cured.append(word)
             }

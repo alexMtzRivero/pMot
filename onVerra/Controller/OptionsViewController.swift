@@ -28,8 +28,25 @@ class OptionsViewController: UIViewController {
     @IBOutlet weak var furniture: CategoryViewController!
     @IBOutlet weak var people: CategoryViewController!
     @IBOutlet weak var label: UILabel!
+    var catCards:[ CategoryViewController] = [ ]
     
     override func viewDidLoad() {
+        catCards.append(vehicles)
+        catCards.append(animals)
+        catCards.append(toys)
+        catCards.append(clothing)
+            catCards.append( outside)
+            catCards.append( places)
+            catCards.append( household)
+            catCards.append(bodyparts)
+        catCards.append(food)
+        catCards.append( furniture)
+        catCards.append( people)
+        for card in catCards{
+            card.score?.text = SesionController.getNOfTotal(Category: (card.title?.text)! )
+        }
+            
+        
         super.viewDidLoad()
         if langage == "fr"{
         changeLang(n: 0)
@@ -55,6 +72,7 @@ class OptionsViewController: UIViewController {
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
         let secondController = segue.destination as! LevelViewController
         secondController.category = self.category
         secondController.langueLearn = self.langueLearn
