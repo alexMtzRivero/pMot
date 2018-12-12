@@ -13,7 +13,7 @@ class Word {
     
     
     var fr:String
-    var sp:String
+    var es:String
     var en:String
     var showed:Bool
     var category:String
@@ -21,10 +21,22 @@ class Word {
     init(French f :String, English e:String ,Spanish s:String, Category c:String, Sown sw:Bool,Correct cr:Float) {
         self.fr = f
         self.en = e
-        self.sp = s
+        self.es = s
         self.category = c
         self.showed = sw
         self.correct = cr
+    }
+    func getlang(lang: String )-> String{
+        switch lang {
+        case "es":
+            return self.es
+        case "fr":
+            return self.fr
+
+        default:
+            return self.en
+        }
+        
     }
    
     

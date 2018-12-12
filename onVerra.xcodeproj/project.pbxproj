@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E250E8D21C11A3000F5EF7F /* Game2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E250E8C21C11A3000F5EF7F /* Game2ViewController.swift */; };
+		9E250E8E21C11A3000F5EF7F /* Game2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E250E8C21C11A3000F5EF7F /* Game2ViewController.swift */; };
+		9E250E8F21C11A3000F5EF7F /* Game2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E250E8C21C11A3000F5EF7F /* Game2ViewController.swift */; };
+		9E250E9121C11A5800F5EF7F /* Game3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E250E9021C11A5800F5EF7F /* Game3ViewController.swift */; };
+		9E250E9221C11A5800F5EF7F /* Game3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E250E9021C11A5800F5EF7F /* Game3ViewController.swift */; };
+		9E250E9321C11A5800F5EF7F /* Game3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E250E9021C11A5800F5EF7F /* Game3ViewController.swift */; };
 		9E34D78321B5100300359A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E34D78221B5100300359A0C /* AppDelegate.swift */; };
 		9E34D78821B5100300359A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E34D78621B5100300359A0C /* Main.storyboard */; };
 		9E34D78A21B5100400359A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E34D78921B5100400359A0C /* Assets.xcassets */; };
@@ -24,9 +30,9 @@
 		9E71374521BA7894003B6F64 /* wordsDB.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9E71374421BA7894003B6F64 /* wordsDB.csv */; };
 		9E71374621BA7894003B6F64 /* wordsDB.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9E71374421BA7894003B6F64 /* wordsDB.csv */; };
 		9E71374721BA7894003B6F64 /* wordsDB.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9E71374421BA7894003B6F64 /* wordsDB.csv */; };
-		9E71374D21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
-		9E71374E21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
-		9E71374F21BA9D1C003B6F64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* GameViewController.swift */; };
+		9E71374D21BA9D1C003B6F64 /* Game1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* Game1ViewController.swift */; };
+		9E71374E21BA9D1C003B6F64 /* Game1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* Game1ViewController.swift */; };
+		9E71374F21BA9D1C003B6F64 /* Game1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71374C21BA9D1C003B6F64 /* Game1ViewController.swift */; };
 		9EC53BBC21C001AC003755A6 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC53BBB21C001AC003755A6 /* LevelViewController.swift */; };
 		9EC53BBD21C001AC003755A6 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC53BBB21C001AC003755A6 /* LevelViewController.swift */; };
 		9EC53BBE21C001AC003755A6 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC53BBB21C001AC003755A6 /* LevelViewController.swift */; };
@@ -68,6 +74,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E250E8C21C11A3000F5EF7F /* Game2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2ViewController.swift; sourceTree = "<group>"; };
+		9E250E9021C11A5800F5EF7F /* Game3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game3ViewController.swift; sourceTree = "<group>"; };
 		9E34D77F21B5100300359A0C /* onVerra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onVerra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E34D78221B5100300359A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E34D78721B5100300359A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,7 +97,7 @@
 		9E5DF3B021B824D700842BD9 /* SesionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SesionController.swift; sourceTree = "<group>"; };
 		9E5DF3B121B824D700842BD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E71374421BA7894003B6F64 /* wordsDB.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wordsDB.csv; path = onVerra/wordsDB.csv; sourceTree = SOURCE_ROOT; };
-		9E71374C21BA9D1C003B6F64 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9E71374C21BA9D1C003B6F64 /* Game1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1ViewController.swift; sourceTree = "<group>"; };
 		9EC53BBB21C001AC003755A6 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
 		9EE792A121BE599F00F367E1 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		9EE792A521BE5D3C00F367E1 /* CategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryView.xib; sourceTree = "<group>"; };
@@ -185,10 +193,12 @@
 			children = (
 				9E5DF3AF21B824D700842BD9 /* englishPage.swift */,
 				F13901DD21BA732100368F79 /* Categories.swift */,
+				9E250E8C21C11A3000F5EF7F /* Game2ViewController.swift */,
 				9E5DF3AC21B824D700842BD9 /* frenchPage.swift */,
 				9E5DF3B021B824D700842BD9 /* SesionController.swift */,
 				9E5DF3AE21B824D700842BD9 /* spanishPage.swift */,
-				9E71374C21BA9D1C003B6F64 /* GameViewController.swift */,
+				9E250E9021C11A5800F5EF7F /* Game3ViewController.swift */,
+				9E71374C21BA9D1C003B6F64 /* Game1ViewController.swift */,
 				9E71374421BA7894003B6F64 /* wordsDB.csv */,
 				9EC53BBB21C001AC003755A6 /* LevelViewController.swift */,
 				9EE792A921BE7A7B00F367E1 /* OptionsViewController.swift */,
@@ -362,7 +372,8 @@
 				9E5DF3B721B824D700842BD9 /* ViewController.swift in Sources */,
 				9EC53BBC21C001AC003755A6 /* LevelViewController.swift in Sources */,
 				9E5DF3B421B824D700842BD9 /* spanishPage.swift in Sources */,
-				9E71374D21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
+				9E250E9121C11A5800F5EF7F /* Game3ViewController.swift in Sources */,
+				9E71374D21BA9D1C003B6F64 /* Game1ViewController.swift in Sources */,
 				9EE792A221BE599F00F367E1 /* CategoryViewController.swift in Sources */,
 				9E5DF3B521B824D700842BD9 /* englishPage.swift in Sources */,
 				F13901DE21BA732100368F79 /* Categories.swift in Sources */,
@@ -370,6 +381,7 @@
 				9EE792AA21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */,
 				9E5DF3B221B824D700842BD9 /* frenchPage.swift in Sources */,
 				9E34D78321B5100300359A0C /* AppDelegate.swift in Sources */,
+				9E250E8D21C11A3000F5EF7F /* Game2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,13 +389,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E71374E21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
+				9E71374E21BA9D1C003B6F64 /* Game1ViewController.swift in Sources */,
+				9E250E9221C11A5800F5EF7F /* Game3ViewController.swift in Sources */,
 				9EC53BC121C0F43B003755A6 /* Word.swift in Sources */,
 				9EC53BBF21C0F42D003755A6 /* Game.swift in Sources */,
 				9EC53BBD21C001AC003755A6 /* LevelViewController.swift in Sources */,
 				9EE792AB21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */,
 				9EC53BC521C10327003755A6 /* Categories.swift in Sources */,
 				9E34D79821B5100400359A0C /* onVerraTests.swift in Sources */,
+				9E250E8E21C11A3000F5EF7F /* Game2ViewController.swift in Sources */,
 				9EC53BC321C0F467003755A6 /* SesionController.swift in Sources */,
 				9EE792A321BE599F00F367E1 /* CategoryViewController.swift in Sources */,
 			);
@@ -393,13 +407,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E71374F21BA9D1C003B6F64 /* GameViewController.swift in Sources */,
+				9E71374F21BA9D1C003B6F64 /* Game1ViewController.swift in Sources */,
+				9E250E9321C11A5800F5EF7F /* Game3ViewController.swift in Sources */,
 				9EC53BC221C0F43B003755A6 /* Word.swift in Sources */,
 				9EC53BC021C0F42E003755A6 /* Game.swift in Sources */,
 				9EC53BBE21C001AC003755A6 /* LevelViewController.swift in Sources */,
 				9EE792AC21BE7A7B00F367E1 /* OptionsViewController.swift in Sources */,
 				9EC53BC621C10327003755A6 /* Categories.swift in Sources */,
 				9E34D7A321B5100400359A0C /* onVerraUITests.swift in Sources */,
+				9E250E8F21C11A3000F5EF7F /* Game2ViewController.swift in Sources */,
 				9EC53BC421C0F467003755A6 /* SesionController.swift in Sources */,
 				9EE792A421BE599F00F367E1 /* CategoryViewController.swift in Sources */,
 			);

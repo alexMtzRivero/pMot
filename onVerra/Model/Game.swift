@@ -11,6 +11,8 @@ public class Game{
     var words:[ Word ]
     var allOptions:[Word]
     var points: Int
+    var currentWorld:Word!
+    
     init(Words words:[ Word ]) {
         self.words = words
         points = 0
@@ -22,10 +24,11 @@ public class Game{
             return nil
         }
         else{
-            return pop()
+            currentWorld = pop()
+            return  currentWorld
         }
     }
-    func gerRandomOption(lang:String)-> Word{
+    func gerRandomOption()-> Word{
         let number = Int(arc4random_uniform(UInt32(allOptions.count)))
         return allOptions[number]
     }

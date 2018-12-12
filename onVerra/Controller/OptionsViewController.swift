@@ -11,6 +11,7 @@ import UIKit
 class OptionsViewController: UIViewController {
 
      public var langage: String = String()
+    var langueLearn :String = String( )
     var category: String = String()
     var names:[String:[String]] = [:]
     var langN = -1
@@ -56,6 +57,7 @@ class OptionsViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let secondController = segue.destination as! LevelViewController
         secondController.category = self.category
+        secondController.langueLearn = self.langueLearn
         secondController.langue = self.langage
     
     }

@@ -19,12 +19,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="herbe" translatesAutoresizingMaskIntoConstraints="NO" id="aUB-nP-joN">
+                                <rect key="frame" x="-15" y="495" width="404" height="199"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQI-tG-W9a">
-                                <rect key="frame" x="16" y="325" width="343" height="77"/>
+                                <rect key="frame" x="16" y="366" width="343" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.52156862745098043" green="0.71372549019607845" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
-                                <state key="normal" title="Anglais">
+                                <state key="normal" title="I learn english">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -32,11 +36,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEL-ch-4ot">
-                                <rect key="frame" x="16" y="410" width="343" height="77"/>
+                                <rect key="frame" x="16" y="457" width="343" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.52156862745098043" green="0.71372549019607845" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
-                                <state key="normal" title="Espagnol">
+                                <state key="normal" title="Aprendo español">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -44,11 +48,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIH-Yn-ya6">
-                                <rect key="frame" x="16" y="240" width="343" height="77"/>
+                                <rect key="frame" x="16" y="274" width="343" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.52156862745098043" green="0.71372549019607845" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
-                                <state key="normal" title="Français">
+                                <state key="normal" title="Je apprends Français">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -56,14 +60,19 @@
                                     <segue destination="0cK-c3-cZi" kind="show" identifier="FrSegue" id="efx-18-kbD"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="herbe" translatesAutoresizingMaskIntoConstraints="NO" id="aUB-nP-joN">
-                                <rect key="frame" x="-15" y="495" width="404" height="199"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="pig" translatesAutoresizingMaskIntoConstraints="NO" id="0zF-k2-h3p">
                                 <rect key="frame" x="107" y="47" width="160" height="160"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1yc-Fe-OWt">
+                                <rect key="frame" x="16" y="223" width="343" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Je parle Français"/>
+                                    <segment title="I speak english"/>
+                                    <segment title="Hablo español"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -72,6 +81,7 @@
                         <outlet property="englishBtn" destination="FQI-tG-W9a" id="OzM-y0-5jh"/>
                         <outlet property="frenchBtn" destination="oIH-Yn-ya6" id="dqE-yY-ICD"/>
                         <outlet property="spanishBtn" destination="bEL-ch-4ot" id="lLx-z3-ERA"/>
+                        <outlet property="speakSegment" destination="1yc-Fe-OWt" id="9sj-I5-hxP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -140,6 +150,9 @@
                                 <state key="normal" title="Niveau 1">
                                     <color key="titleColor" red="0.52156862749999999" green="0.71372549019999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="XBc-dr-jqB" kind="show" identifier="level1" id="JhA-aL-WGW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZM-mQ-mpK">
                                 <rect key="frame" x="16" y="401" width="343" height="59"/>
@@ -149,6 +162,9 @@
                                 <state key="normal" title="Niveau 2">
                                     <color key="titleColor" red="0.52156862749999999" green="0.71372549019999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="oQb-Df-hmW" kind="show" identifier="level2" id="7yp-0Y-egk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6S-kh-dO9">
                                 <rect key="frame" x="16" y="474" width="343" height="59"/>
@@ -158,17 +174,8 @@
                                 <state key="normal" title="Niveau 3">
                                     <color key="titleColor" red="0.52156862749999999" green="0.71372549019999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="So7-Td-yW0">
-                                <rect key="frame" x="113" y="574" width="148" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.52156862749999999" green="0.71372549019999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                <state key="normal" title="Commencer">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
                                 <connections>
-                                    <segue destination="XBc-dr-jqB" kind="show" id="uWs-u4-SJv"/>
+                                    <segue destination="Axz-Zw-WIG" kind="show" identifier="level3" id="8IY-pb-kEN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -180,10 +187,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="786.65667166416802"/>
         </scene>
-        <!--Game View Controller-->
+        <!--Game1 View Controller-->
         <scene sceneID="VSV-UI-Dha">
             <objects>
-                <viewController id="XBc-dr-jqB" customClass="GameViewController" customModule="onVerra" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XBc-dr-jqB" customClass="Game1ViewController" customModule="onVerra" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gtC-bB-82M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,18 +209,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pX9-kO-9JE">
-                                <rect key="frame" x="113" y="578" width="148" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.52156862749999999" green="0.71372549019999998" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                <state key="normal" title="Suivant">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="nextBClicked:" destination="XBc-dr-jqB" eventType="touchUpInside" id="MxX-dq-E64"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aEG-Rg-O40">
                                 <rect key="frame" x="16" y="369" width="343" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -222,6 +217,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="option1"/>
+                                        <connections>
+                                            <action selector="nextBClicked:" destination="XBc-dr-jqB" eventType="touchUpInside" id="rkf-7b-xwX"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -234,31 +232,40 @@
                                         <rect key="frame" x="0.0" y="-2" width="343" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Option 2"/>
+                                        <connections>
+                                            <action selector="nextBClicked:" destination="XBc-dr-jqB" eventType="touchUpInside" id="O6L-t9-hIa"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pG4-km-7cT">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ci-Ec-e1w">
                                 <rect key="frame" x="16" y="102" width="343" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pG4-km-7cT">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="231"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="e4O-hy-z3Z"/>
                     </view>
                     <connections>
-                        <outlet property="nextButton" destination="pX9-kO-9JE" id="9Mj-AP-vPo"/>
-                        <outlet property="option1" destination="Mfo-Un-BqT" id="roU-rn-Vun"/>
-                        <outlet property="option2" destination="FJt-mE-IDw" id="kJ6-pj-g7X"/>
-                        <outlet property="worldLabel" destination="pG4-km-7cT" id="PVa-vu-NlC"/>
+                        <outlet property="option1" destination="Mfo-Un-BqT" id="OkT-4y-uP5"/>
+                        <outlet property="option2" destination="FJt-mE-IDw" id="FAT-db-XEE"/>
+                        <outlet property="worldLabel" destination="pG4-km-7cT" id="hxx-bI-qKo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eqc-iU-bcX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="1448.7256371814094"/>
+            <point key="canvasLocation" x="41" y="1549"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6xT-XM-eaI">
@@ -323,7 +330,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="swq-eg-39m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="960.79999999999995" y="1448.7256371814094"/>
+            <point key="canvasLocation" x="793" y="1549"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ka1-d5-3Vc">
@@ -368,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5xW-iO-dzZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1782" y="1449"/>
+            <point key="canvasLocation" x="1594" y="1549"/>
         </scene>
         <!--Options View Controller-->
         <scene sceneID="Dpk-tk-w0o">
@@ -947,7 +954,7 @@
         <image name="pig" width="160" height="160"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="efx-18-kbD"/>
+        <segue reference="NMJ-rX-GyX"/>
         <segue reference="gpF-hl-1aV"/>
     </inferredMetricsTieBreakers>
 </document>

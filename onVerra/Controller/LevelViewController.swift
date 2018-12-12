@@ -11,6 +11,7 @@ import UIKit
 class LevelViewController: UIViewController {
 
     var langue:String = String( )
+    var langueLearn :String = String( )
     var level: Int = 1
     var mode:String = String( )
     var category:String = String( )
@@ -21,9 +22,31 @@ class LevelViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-       let secondController = segue.destination as! GameViewController
-        secondController.category = self.category
-        secondController.langue = self.langue
+       
+        
+        switch segue.identifier {
+        case "level1":
+            let secondController = segue.destination as! Game1ViewController
+            secondController.category = self.category
+            secondController.langue = self.langue
+            secondController.langueLearn = self.langueLearn
+        case "level2":
+            let secondController = segue.destination as! Game2ViewController
+            secondController.category = self.category
+            secondController.langue = self.langue
+            secondController.langueLearn = self.langueLearn
+        case "level3":
+            let secondController = segue.destination as! Game3ViewController
+            secondController.category = self.category
+            secondController.langue = self.langue
+            secondController.langueLearn = self.langueLearn
+        default:
+            let secondController = segue.destination as! Game1ViewController
+            secondController.category = self.category
+            secondController.langue = self.langue
+            secondController.langueLearn = self.langueLearn
+        }
+       
     }
 
     override func didReceiveMemoryWarning() {

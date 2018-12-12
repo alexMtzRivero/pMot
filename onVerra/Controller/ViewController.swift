@@ -25,6 +25,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var spanishBtn: UIButton!
     @IBOutlet weak var data: UILabel!
   
+    @IBOutlet weak var speakSegment: UISegmentedControl!
+    
     var text: String = "en"
     
     
@@ -40,8 +42,18 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let secondController = segue.destination as! OptionsViewController
-        secondController.langage = text
         
+        var langCode = ""
+        switch speakSegment.selectedSegmentIndex {
+        case 1:
+            langCode = "en"
+        case 2:
+            langCode = "es"
+        default:
+            langCode = "fr"
+        }
+        secondController.langage = text
+        secondController.langueLearn = langCode
         secondController.names = Categories().categories
     }
     

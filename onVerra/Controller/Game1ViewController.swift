@@ -8,15 +8,17 @@
 
 import UIKit
 
-class GameViewController: UIViewController {
+class Game1ViewController: UIViewController {
 
     var langue:String = String( )
+    var langueLearn :String = String( )
     var level: Int = 1
     var mode:String = String( )
     var category:String = String( )
     var sessionControler = SesionController()
     var game:Game!
     var cIndex: Int = 0
+    var bOptions:[UIButton] = [ ]
 
     @IBOutlet weak var worldLabel: UILabel!
  
@@ -30,8 +32,10 @@ class GameViewController: UIViewController {
         
         game = Game(Words: sessionControler.loadCategory(category: translateToEnglish(category: self.category)))
         // Do any additional setup after loading the view.
-        
-      setNewWord()
+        bOptions.append(option1)
+        bOptions.append(option2)
+      
+        setNewWord()
         
     }
     func translateToEnglish(category:String)->String{
@@ -54,7 +58,15 @@ class GameViewController: UIViewController {
     func setNewWord( ){
         let word = game.newWord()
         if word != nil {
-            worldLabel.text = word?.fr
+            // sets all options to random words from category
+            for b in bOptions{
+                b.setTitle(game.gerRandomOption().getlang(lang: langueLearn), for: .normal)
+            }
+            // puts the rhight answer in a random button
+            let number = Int(arc4random_uniform(UInt32(bOptions.count)))
+            bOptions[number].setTitle(word?.getlang(lang: langueLearn), for: .normal)
+            //shows the new word
+            worldLabel.text = word?.getlang(lang: langue)
         }
         else{
             worldLabel.text = "se acabo"
@@ -65,6 +77,14 @@ class GameViewController: UIViewController {
   
     
     @IBAction func nextBClicked(_ sender: Any) {
+        let button :UIButton = sender as! UIButton
+        let answer = button.titleLabel!.text
+        if answer == game.currentWorld.getlang(lang: langueLearn){
+            worldLabel.textColor = UIColor.green
+        }
+        else{
+             worldLabel.textColor = UIColor.red
+        }
         setNewWord()
     }
     override func didReceiveMemoryWarning() {

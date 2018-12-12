@@ -74,7 +74,7 @@ class SesionController {
     
             
             for word in allWords {
-                let newLine = "\(word.fr),\(word.en),\(word.sp),\(word.category),\(word.showed),\(word.correct)\n"
+                let newLine = "\(word.fr),\(word.en),\(word.es),\(word.category),\(word.showed),\(word.correct)\n"
                 csvText.append(newLine)
             }
             
